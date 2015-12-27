@@ -1,0 +1,54 @@
+##grflangid 0x00
+
+# GRF name and description
+STR_GRF_NAME					:Korean Bus Set
+STR_GRF_NAME_WITH_VER				:Korean Bus Set v{VERSION}
+STR_GRF_DESC					:{}{BLACK}Korean buses including Seoul and Gyeonggi-do buses.{}(Updated: {RECENT_UPDATED}){}{}{SILVER}+ Author: TELK{}{BLACK}  - {AUTHOR_EMAIL}{}  - {AUTHOR_WEBSITE}
+STR_GRF_URL					:http://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
+
+# Vehicle names
+STR_SEOULBUS_B_NAME				:Seoul Bus (Blue)
+STR_SEOULBUS_G_NAME				:Seoul Bus (Green)
+STR_SEOULBUS_R_NAME				:Seoul Bus (Red)
+STR_SEOULBUS_Y_NAME				:Seoul Bus (Yellow)
+STR_GBUS_G_NAME					:Gyeonggi-do G-BUS (Green)
+STR_GBUS_R_NAME					:Gyeonggi-do G-BUS (Red)
+STR_GBUS_Y_NAME					:Gyeonggi-do G-BUS (Yellow)
+STR_GBUS_B_NAME					:Gyeonggi-do G-BUS (Blue)
+
+# Refit
+STR_SUBTYPE_NORMAL				: (Normal)
+STR_SUBTYPE_LOWER				: (Low-level)
+
+# Parameters
+STR_PARAM_SPEED_GENERAL_NAME			:Speed
+STR_PARAM_SPEED_GENERAL_DESC			:Speed of bus. The speed of buses will be faster when you set this option as larger value.{}Set this value as 5 if you want to apply the real speed.
+STR_PARAM_FACTOR_COST_NAME			:Cost
+STR_PARAM_FACTOR_COST_DESC			:Cost of buses. The higher this value, the more expensive cost to buy buses.
+STR_PARAM_FACTOR_RUNNING_COST_NAME		:Running cost
+STR_PARAM_FACTOR_RUNNING_COST_DESC		:Running cost of buses. The higher this value, the more expensive cost to running buses.
+STR_PARAM_FACTOR_CARGO_CAPACITY_NAME		:Cargo capacity
+STR_PARAM_FACTOR_CARGO_CAPACITY_DESC		:Cargo capacity of buses. The higher this value, the more cargo can be delivered.{}It is the same as real if you set this by 'x2'.{}{RED}Warning!{WHITE} This setting will be applied from newly created buses.
+STR_PARAM_FACTOR_LOADING_SPEED_NAME		:Loading speed
+STR_PARAM_FACTOR_LOADING_SPEED_DESC		:Loading speed of buses. The higher this value, the more cargo can load cargos faster.
+
+# Parameters' value
+STR_PARAM_OPT_FACTOR_BY_0			:x0
+STR_PARAM_OPT_FACTOR_BY_1_32			:x1/32
+STR_PARAM_OPT_FACTOR_BY_1_16			:x1/16
+STR_PARAM_OPT_FACTOR_BY_1_8			:x1/8
+STR_PARAM_OPT_FACTOR_BY_1_4			:x1/4
+STR_PARAM_OPT_FACTOR_BY_1_2			:x1/2
+STR_PARAM_OPT_FACTOR_BY_1			:x1 (Default)
+STR_PARAM_OPT_FACTOR_BY_2			:x2
+STR_PARAM_OPT_FACTOR_BY_4			:x4
+STR_PARAM_OPT_FACTOR_BY_8			:x8
+STR_PARAM_OPT_FACTOR_BY_16			:x16
+STR_PARAM_OPT_FACTOR_BY_32			:x32
+STR_PARAM_OPT_FACTOR_BY_64			:x64
+STR_PARAM_OPT_FACTOR_BY_128			:x128
+STR_PARAM_OPT_FACTOR_BY_256			:x256
+
+# Errors
+STR_ERROR_REQUIRES_OPENTTD			:this newgrf requires OpenTTD {STRING}!
+STR_ERROR_VERSION				:no suitable version!
