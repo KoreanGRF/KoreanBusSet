@@ -15,7 +15,7 @@ STR_GBUS_G_NAME                                  :Gyeonggi-do G-BUS (Green)
 STR_GBUS_R_NAME                                  :Gyeonggi-do G-BUS (Red)
 STR_GBUS_Y_NAME                                  :Gyeonggi-do G-BUS (Yellow)
 STR_GBUS_B_NAME                                  :Gyeonggi-do G-BUS (Blue)
-STR_HYUNDAI_LOWER_NAME                           :Hyundai Lower Bus
+STR_HYUNDAI_LOWER_NAME                           :Hyundai Low-floor Bus
 
 # Refit
 STR_SUBTYPE_NORMAL                               : (Normal)
