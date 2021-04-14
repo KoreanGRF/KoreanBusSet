@@ -1,0 +1,151 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+
+// GRF definition
+grf {
+    grfid :                            "TK\02\02";
+    name :                             string(STR_GRF_NAME_WITH_VER);
+    desc :                             string(STR_GRF_DESC);
+    url :                              string(STR_GRF_URL);
+    version :                          37;
+    min_compatible_version :           37;
+
+
+    // Speed coefficient
+    param 0 {
+        coeff_speed {
+            type: int;
+            name: string(STR_PARAM_SPEED_NAME);
+            desc: string(STR_PARAM_SPEED_DESC);
+            min_value: 1;
+            max_value: 50;
+            def_value: 5;
+        }
+    }
+
+    // Cost coefficient
+    param 6 {
+        coeff_cost {
+            type: int;
+            name: string(STR_PARAM_FACTOR_COST_NAME);
+            desc: string(STR_PARAM_FACTOR_COST_DESC);
+            min_value: 0;
+            max_value: 10;
+            def_value: 3;
+            names: {
+                0:    string(STR_PARAM_OPT_FACTOR_BY_1_8);
+                1:    string(STR_PARAM_OPT_FACTOR_BY_1_4);
+                2:    string(STR_PARAM_OPT_FACTOR_BY_1_2);
+                3:    string(STR_PARAM_OPT_FACTOR_BY_1);
+                4:    string(STR_PARAM_OPT_FACTOR_BY_2);
+                5:    string(STR_PARAM_OPT_FACTOR_BY_4);
+                6:    string(STR_PARAM_OPT_FACTOR_BY_8);
+                7:    string(STR_PARAM_OPT_FACTOR_BY_16);
+                8:    string(STR_PARAM_OPT_FACTOR_BY_32);
+                9:    string(STR_PARAM_OPT_FACTOR_BY_64);
+                10:    string(STR_PARAM_OPT_FACTOR_BY_128);
+            };
+        }
+    }
+
+    // Running cost coefficient
+    param 7 {
+        coeff_running_cost {
+            type: int;
+            name: string(STR_PARAM_FACTOR_RUNNING_COST_NAME);
+            desc: string(STR_PARAM_FACTOR_RUNNING_COST_DESC);
+            min_value: 0;
+            max_value: 12;
+            def_value: 5;
+            names: {
+                0:    string(STR_PARAM_OPT_FACTOR_BY_1_32);
+                1:    string(STR_PARAM_OPT_FACTOR_BY_1_16);
+                2:    string(STR_PARAM_OPT_FACTOR_BY_1_8);
+                3:    string(STR_PARAM_OPT_FACTOR_BY_1_4);
+                4:    string(STR_PARAM_OPT_FACTOR_BY_1_2);
+                5:    string(STR_PARAM_OPT_FACTOR_BY_1);
+                6:    string(STR_PARAM_OPT_FACTOR_BY_2);
+                7:    string(STR_PARAM_OPT_FACTOR_BY_4);
+                8:    string(STR_PARAM_OPT_FACTOR_BY_8);
+                9:    string(STR_PARAM_OPT_FACTOR_BY_16);
+                10:    string(STR_PARAM_OPT_FACTOR_BY_32);
+                11:    string(STR_PARAM_OPT_FACTOR_BY_64);
+                12:    string(STR_PARAM_OPT_FACTOR_BY_128);
+            };
+        }
+    }
+
+    // Capacity coefficient
+    param 8 {
+        coeff_cargo_capacity {
+            type: int;
+            name: string(STR_PARAM_FACTOR_CARGO_CAPACITY_NAME);
+            desc: string(STR_PARAM_FACTOR_CARGO_CAPACITY_DESC);
+            min_value: 0;
+            max_value: 8;
+            def_value: 0;
+            names: {
+                0:    string(STR_PARAM_OPT_FACTOR_BY_1);
+                1:    string(STR_PARAM_OPT_FACTOR_BY_2);
+                2:    string(STR_PARAM_OPT_FACTOR_BY_4);
+                3:    string(STR_PARAM_OPT_FACTOR_BY_8);
+                4:    string(STR_PARAM_OPT_FACTOR_BY_16);
+                5:    string(STR_PARAM_OPT_FACTOR_BY_32);
+                6:    string(STR_PARAM_OPT_FACTOR_BY_64);
+                7:    string(STR_PARAM_OPT_FACTOR_BY_128);
+                8:    string(STR_PARAM_OPT_FACTOR_BY_256);
+            };
+        }
+    }
+
+    // Loading speed coefficient
+    param 9 {
+        coeff_loading_speed {
+            type: int;
+            name: string(STR_PARAM_FACTOR_LOADING_SPEED_NAME);
+            desc: string(STR_PARAM_FACTOR_LOADING_SPEED_DESC);
+            min_value: 0;
+            max_value: 5;
+            def_value: 0;
+            names: {
+                0:    string(STR_PARAM_OPT_FACTOR_BY_1);
+                1:    string(STR_PARAM_OPT_FACTOR_BY_2);
+                2:    string(STR_PARAM_OPT_FACTOR_BY_4);
+                3:    string(STR_PARAM_OPT_FACTOR_BY_8);
+                4:    string(STR_PARAM_OPT_FACTOR_BY_16);
+                5:    string(STR_PARAM_OPT_FACTOR_BY_32);
+            };
+        }
+    }
+}
+
+
+// Roadtypetable
+roadtypetable {
+    ROAD
+}
+
+// Cargotable
+cargotable {
+    PASS
+}
+
+
+// Cost, running cost, capacity, loading speed coefficients
+sw_speed_factor =           1 << max(0, min(coeff_speed, 10));
+sw_cost_factor =            1 << max(0, min(coeff_cost, 10));
+sw_running_cost_factor =    1 << max(0, min(coeff_running_cost, 12));
+sw_cargo_capacity_factor =  1 << (max(1, min(coeff_cargo_capacity, 8)) - 1);
+sw_loading_speed_factor =   1 << max(0, min(coeff_loading_speed, 3));
+
+// Macro
+#include "src/macro.pnml"
+
+// Load spec
+#include "generated/spec.pnml"
+
+// Items
+#include "./src/hyundai/lower/item.pnml"

@@ -1,0 +1,36 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+// For unit
+#define POWER_IN_KW(POWER)     (int((POWER) / 0.7457))
+
+// Speed
+#define SPEED(VEHICLEID) \
+switch(FEAT_ROADVEHS, SELF, sw_## VEHICLEID ## _speed, 1) { \
+    return var_ ## VEHICLEID ## _SPEED / 10 * sw_speed_factor; \
+}
+
+// Cost
+#define COST(VEHICLEID) \
+switch(FEAT_ROADVEHS, SELF, sw_ ## VEHICLEID ## _cost, 1) { \
+    return var_ ## VEHICLEID ## _COST / 10 * sw_cost_factor; \
+}
+
+// Running cost (Do not rename this as 'RUNNINGCOST')
+#define RUNNING(VEHICLEID) \
+switch(FEAT_ROADVEHS, SELF, sw_ ## VEHICLEID ## _runningcost, 1) { \
+    return var_ ## VEHICLEID ## _RUNNINGCOST * sw_running_cost_factor; \
+}
+
+// Capacity
+#define CAPACITY(VEHICLEID) \
+switch(FEAT_ROADVEHS, SELF, sw_ ## VEHICLEID ## _capacity, 1) { \
+    return var_ ## VEHICLEID ## _CAPACITY / 2 * sw_cargo_capacity_factor; \
+}
+
+// Loading speed
+#define LOADING(VEHICLEID) \
+switch(FEAT_ROADVEHS, SELF, sw_ ## VEHICLEID ## _loadingspeed, 1) { \
+    return var_ ## VEHICLEID ## _LOADINGSPEED * sw_loading_speed_factor; \
+}

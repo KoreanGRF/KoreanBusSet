@@ -1,5 +1,0 @@
-VERSION			:0.3.6r
-RECENT_UPDATED		:2015.12.27
-
-AUTHOR_WEBSITE		:http://telk.kr
-AUTHOR_EMAIL		:telk5093@gmail.com

@@ -1,0 +1,67 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+/**
+ * Hyundai lower
+ */
+SPEED(HYUNDAI_LOWER)
+COST(HYUNDAI_LOWER)
+RUNNING(HYUNDAI_LOWER)
+CAPACITY(HYUNDAI_LOWER)
+LOADING(HYUNDAI_LOWER)
+
+// Graphic
+#include "graphic.pnml"
+
+// Green
+item(FEAT_ROADVEHS, ko_bus_HYUNDAI_LOWER, 5010) {
+    property {
+        // Common properties
+        name:                           string(STR_HYUNDAI_LOWER_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(1980, 1, 1);
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;  //SOUND_BUS_START_PULL_AWAY_WITH_HORN
+    }
+
+    // 그래픽 정의
+    graphics {
+        default:                        sw_HYUNDAI_LOWER_wagon;
+        purchase:                       sw_HYUNDAI_LOWER_purchase;
+
+        speed:                          sw_HYUNDAI_LOWER_speed;
+        cost_factor:                    sw_HYUNDAI_LOWER_cost;
+        running_cost_factor:            sw_HYUNDAI_LOWER_runningcost;
+        cargo_capacity:                 sw_HYUNDAI_LOWER_capacity;
+        loading_speed:                  sw_HYUNDAI_LOWER_loadingspeed;
+
+        // cargo_subtype_text:             sw_HYUNDAI_LOWER_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_ABLE);
+    }
+}

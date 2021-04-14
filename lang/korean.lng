@@ -1,54 +1,7 @@
 ##grflangid 0x3A
+##gender m f
 
 # GRF name and description
-STR_GRF_NAME					:한국 버스 세트
-STR_GRF_NAME_WITH_VER				:한국 버스 세트 v{VERSION}
-STR_GRF_DESC					:{}{BLACK}서울 및 경기도 버스를 포함하고 있는 한국 버스 세트입니다.{}(최근 업데이트: {RECENT_UPDATED}){}{}{SILVER}+ 제작: TELK{}{BLACK}  - {AUTHOR_EMAIL}{}  - {AUTHOR_WEBSITE}
-STR_GRF_URL					:http://telk.kr/ottd/newgrf/ko_bus_set/?lang=kr
-
-# Vehicle names
-STR_SEOULBUS_B_NAME				:서울 버스 (B, 저상)
-STR_SEOULBUS_G_NAME				:서울 버스 (G, 저상)
-STR_SEOULBUS_R_NAME				:서울 버스 (R, 저상)
-STR_SEOULBUS_Y_NAME				:서울 버스 (Y, 저상)
-STR_GBUS_G_NAME					:경기도 G-BUS (녹)
-STR_GBUS_R_NAME					:경기도 G-BUS (적)
-STR_GBUS_Y_NAME					:경기도 G-BUS (황)
-STR_GBUS_B_NAME					:경기도 G-BUS (청)
-
-# Refit
-STR_SUBTYPE_NORMAL				: (일반)
-STR_SUBTYPE_LOWER				: (저상)
-
-# Parameters
-STR_PARAM_SPEED_GENERAL_NAME			:속도 계수
-STR_PARAM_SPEED_GENERAL_DESC			:버스의 속도를 조절할 수 있습니다. 값이 크면 속도가 더 빨라집니다.{}실제 속력을 사용하시려면 값을 5로 설정하십시오.
-STR_PARAM_FACTOR_COST_NAME			:버스 구입비용
-STR_PARAM_FACTOR_COST_DESC			:버스의 구입 가격을 조절할 수 있습니다. 값이 크면 구입 가격이 더 비싸집니다.
-STR_PARAM_FACTOR_RUNNING_COST_NAME		:버스 유지비
-STR_PARAM_FACTOR_RUNNING_COST_DESC		:버스의 유지비를 조절할 수 있습니다. 값이 크면 유지비가 더 많이 나갑니다.
-STR_PARAM_FACTOR_CARGO_CAPACITY_NAME		:화물 수송량
-STR_PARAM_FACTOR_CARGO_CAPACITY_DESC		:버스의 화물 수송량을 조절할 수 있습니다. 값이 크면 더 많은 양의 승객이나 화물을 실을 수 있습니다.{}x2로 설정하면 현실의 수송량과 거의 같아집니다.{}{RED}주의!{WHITE} 이 설정은 새로 만드는 차량부터 적용됩니다.
-STR_PARAM_FACTOR_LOADING_SPEED_NAME		:화물 적재 속도
-STR_PARAM_FACTOR_LOADING_SPEED_DESC		:버스의 화물 적재 속력을 조절할 수 있습니다. 값이 크면 승객이나 화물을 싣는 속력이 빨라집니다.
-
-# Parameters' value
-STR_PARAM_OPT_FACTOR_BY_0			:x0
-STR_PARAM_OPT_FACTOR_BY_1_32			:x1/32
-STR_PARAM_OPT_FACTOR_BY_1_16			:x1/16
-STR_PARAM_OPT_FACTOR_BY_1_8			:x1/8
-STR_PARAM_OPT_FACTOR_BY_1_4			:x1/4
-STR_PARAM_OPT_FACTOR_BY_1_2			:x1/2
-STR_PARAM_OPT_FACTOR_BY_1			:x1 (기본값)
-STR_PARAM_OPT_FACTOR_BY_2			:x2
-STR_PARAM_OPT_FACTOR_BY_4			:x4
-STR_PARAM_OPT_FACTOR_BY_8			:x8
-STR_PARAM_OPT_FACTOR_BY_16			:x16
-STR_PARAM_OPT_FACTOR_BY_32			:x32
-STR_PARAM_OPT_FACTOR_BY_64			:x64
-STR_PARAM_OPT_FACTOR_BY_128			:x128
-STR_PARAM_OPT_FACTOR_BY_256			:x256
-
-# Errors
-STR_ERROR_REQUIRES_OPENTTD			:이 NewGRF은 OpenTTD {STRING} 전용입니다!
-STR_ERROR_VERSION				:최소 요구 버전을 충족하지 않습니다!
+STR_GRF_NAME_WITH_VER                            :한국 버스 세트 {VERSION}
+STR_GRF_DESC                                     :{BLACK}서울 및 경기도 버스를 포함하고 있는 한국 버스 세트입니다.{}(최근 업데이트: {RECENT_UPDATED}){}{}{SILVER}+ 제작: TELK{}{BLACK}  - {AUTHOR_EMAIL}{}  - {AUTHOR_WEBSITE}
+STR_GRF_URL                                      :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
