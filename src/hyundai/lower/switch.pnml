@@ -1,0 +1,94 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Cargo subtype
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_LOW_FLOOR_subtype_text, cargo_subtype) {
+    1:  return string(STR_REFIT_LIVERY_HYUNDAI_LOW_FLOOR_SEOUL_CC);
+    2:  return string(STR_REFIT_LIVERY_SEOUL_DARK_BLUE);
+    3:  return string(STR_REFIT_LIVERY_SEOUL_PALE_GREEN);
+    4:  return string(STR_REFIT_LIVERY_SEOUL_PINK);
+    5:  return string(STR_REFIT_LIVERY_SEOUL_YELLOW);
+    6:  return string(STR_REFIT_LIVERY_SEOUL_RED);
+    7:  return string(STR_REFIT_LIVERY_SEOUL_LIGHT_BLUE);
+    8:  return string(STR_REFIT_LIVERY_SEOUL_GREEN);
+    9:  return string(STR_REFIT_LIVERY_SEOUL_DARK_GREEN);
+    10: return string(STR_REFIT_LIVERY_SEOUL_BLUE);
+    11: return string(STR_REFIT_LIVERY_SEOUL_CREAM);
+    12: return string(STR_REFIT_LIVERY_SEOUL_MAUVE);
+    13: return string(STR_REFIT_LIVERY_SEOUL_PURPLE);
+    14: return string(STR_REFIT_LIVERY_SEOUL_ORANGE);
+    15: return string(STR_REFIT_LIVERY_SEOUL_BROWN);
+    16: return string(STR_REFIT_LIVERY_SEOUL_GREY);
+    17: return string(STR_REFIT_LIVERY_SEOUL_WHITE);
+    18: return string(STR_REFIT_LIVERY_HYUNDAI_LOW_FLOOR_GYEONGGI_CC);
+    19: return string(STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE);
+    20: return string(STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN);
+    21: return string(STR_REFIT_LIVERY_GYEONGGI_PINK);
+    22: return string(STR_REFIT_LIVERY_GYEONGGI_YELLOW);
+    23: return string(STR_REFIT_LIVERY_GYEONGGI_RED);
+    24: return string(STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE);
+    25: return string(STR_REFIT_LIVERY_GYEONGGI_GREEN);
+    26: return string(STR_REFIT_LIVERY_GYEONGGI_DARK_GREEN);
+    27: return string(STR_REFIT_LIVERY_GYEONGGI_BLUE);
+    28: return string(STR_REFIT_LIVERY_GYEONGGI_CREAM);
+    29: return string(STR_REFIT_LIVERY_GYEONGGI_MAUVE);
+    30: return string(STR_REFIT_LIVERY_GYEONGGI_PURPLE);
+    31: return string(STR_REFIT_LIVERY_GYEONGGI_ORANGE);
+    32: return string(STR_REFIT_LIVERY_GYEONGGI_BROWN);
+    33: return string(STR_REFIT_LIVERY_GYEONGGI_GREY);
+    34: return string(STR_REFIT_LIVERY_GYEONGGI_WHITE);
+    35: return string(STR_REFIT_LIVERY_HYUNDAI_LOW_FLOOR_CHEONAN);
+    36: return string(STR_REFIT_LIVERY_HYUNDAI_LOW_FLOOR_BUSAN_OLD);
+    37: return string(STR_REFIT_LIVERY_HYUNDAI_LOW_FLOOR_BUSAN_NEW);
+    return string(STR_REFIT_LIVERY_HYUNDAI_LOW_FLOOR_DEFAULT);
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_LOW_FLOOR_wagon, cargo_subtype) {
+    1..17:  set_HYUNDAI_LOW_FLOOR_SEOUL_CC;
+    18..34: set_HYUNDAI_LOW_FLOOR_GYEONGGI_CC;
+    35: set_HYUNDAI_LOW_FLOOR_CHEONAN;
+    36: set_HYUNDAI_LOW_FLOOR_BUSAN_OLD;
+    37: set_HYUNDAI_LOW_FLOOR_BUSAN_NEW;
+    set_HYUNDAI_LOW_FLOOR_DEFAULT;
+}
+
+// Colour remapping
+switch(FEAT_ROADVEHS, SELF, switch_HYUNDAI_LOW_FLOOR_recolour, cargo_subtype) {
+    2:  palette_1cc(COLOUR_DARK_BLUE);
+    3:  palette_1cc(COLOUR_PALE_GREEN);
+    4:  palette_1cc(COLOUR_PINK);
+    5:  palette_1cc(COLOUR_YELLOW);
+    6:  palette_1cc(COLOUR_RED);
+    7:  palette_1cc(COLOUR_LIGHT_BLUE);
+    8:  palette_1cc(COLOUR_GREEN);
+    9:  palette_1cc(COLOUR_DARK_GREEN);
+    10: palette_1cc(COLOUR_BLUE);
+    11: palette_1cc(COLOUR_CREAM);
+    12: palette_1cc(COLOUR_MAUVE);
+    13: palette_1cc(COLOUR_PURPLE);
+    14: palette_1cc(COLOUR_ORANGE);
+    15: palette_1cc(COLOUR_BROWN);
+    16: palette_1cc(COLOUR_GREY);
+    17: palette_1cc(COLOUR_WHITE);
+    
+    19: palette_1cc(COLOUR_DARK_BLUE);
+    20: palette_1cc(COLOUR_PALE_GREEN);
+    21: palette_1cc(COLOUR_PINK);
+    22: palette_1cc(COLOUR_YELLOW);
+    23: palette_1cc(COLOUR_RED);
+    24: palette_1cc(COLOUR_LIGHT_BLUE);
+    25: palette_1cc(COLOUR_GREEN);
+    26: palette_1cc(COLOUR_DARK_GREEN);
+    27: palette_1cc(COLOUR_BLUE);
+    28: palette_1cc(COLOUR_CREAM);
+    29: palette_1cc(COLOUR_MAUVE);
+    30: palette_1cc(COLOUR_PURPLE);
+    31: palette_1cc(COLOUR_ORANGE);
+    32: palette_1cc(COLOUR_BROWN);
+    33: palette_1cc(COLOUR_GREY);
+    34: palette_1cc(COLOUR_WHITE);
+    
+    return CB_RESULT_COLOUR_MAPPING_ADD_CC;
+}

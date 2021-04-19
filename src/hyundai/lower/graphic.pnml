@@ -3,22 +3,35 @@
  * https://github.com/KoreanGRF/KoreanBusSet
 ------------------------------------------------------------------------------*/
 
-spriteset(set_HYUNDAI_LOWER_wagon, "./src/hyundai/lower/sprite.png") {
-	[60+0,    0,   7,   23,   -4,  -11]
-	[60+15,   0,   25,  19,  -13,  -10]
-	[60+50,   0,   31,  13,  -16,   -7]
-	[60+85,   0,   24,  19,  -12,  -10]
-	[60+120,  0,   7,   21,   -4,  -11]
-	[60+135,  0,   25,  19,  -13,  -10]
-	[60+170,  0,   31,  13,  -16,   -7]
-	[60+205,  0,   24,  19,  -12,  -10]
+template tmpl_HYUNDAI_LOW_FLOOR(x, y) {
+    [x+0,    y,   7,   23,   -4,  -11]
+    [x+15,   y,   25,  19,  -13,  -10]
+    [x+50,   y,   31,  13,  -16,   -7]
+    [x+85,   y,   24,  19,  -12,  -10]
+    [x+120,  y,   7,   21,   -4,  -11]
+    [x+135,  y,   25,  19,  -13,  -10]
+    [x+170,  y,   31,  13,  -16,   -7]
+    [x+205,  y,   24,  19,  -12,  -10]
 }
 
-
-switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_LOWER_wagon, cargo_subtype) {
-	set_HYUNDAI_LOWER_wagon;
+spriteset(set_HYUNDAI_LOW_FLOOR_DEFAULT, "./src/hyundai/lower/sprite.png") {
+    tmpl_HYUNDAI_LOW_FLOOR(60, 0)
 }
-
-switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_LOWER_purchase, 1) {
-	set_HYUNDAI_LOWER_wagon;
+spriteset(set_HYUNDAI_LOW_FLOOR_SEOUL_CC, "./src/hyundai/lower/sprite.png") {
+    tmpl_HYUNDAI_LOW_FLOOR(60, 30)
+}
+spriteset(set_HYUNDAI_LOW_FLOOR_GYEONGGI_CC, "./src/hyundai/lower/sprite.png") {
+    tmpl_HYUNDAI_LOW_FLOOR(60, 60)
+}
+spriteset(set_HYUNDAI_LOW_FLOOR_CHEONAN, "./src/hyundai/lower/sprite.png") {
+    tmpl_HYUNDAI_LOW_FLOOR(60, 90)
+}
+spriteset(set_HYUNDAI_LOW_FLOOR_BUSAN_OLD, "./src/hyundai/lower/sprite.png") {
+    tmpl_HYUNDAI_LOW_FLOOR(60, 120)
+}
+spriteset(set_HYUNDAI_LOW_FLOOR_BUSAN_NEW, "./src/hyundai/lower/sprite.png") {
+    tmpl_HYUNDAI_LOW_FLOOR(60, 150)
+}
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_LOW_FLOOR_purchase, 1) {
+    set_HYUNDAI_LOW_FLOOR_DEFAULT;
 }

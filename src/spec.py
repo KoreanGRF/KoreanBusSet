@@ -7,7 +7,7 @@
 vehicleList = {}
 
 #                                   speed1  cost    running_cost  capacity loading_speed power   weight  introduction
-vehicleList['HYUNDAI_LOWER']      = 100,    10,     10,           50,      10,           261,    50,     (1980, 1, 1)
+vehicleList['HYUNDAI_LOW_FLOOR']  = 100,    10,     10,           50,      10,           261,    50,     (1980, 1, 1)
 
 
 # Generates spec.pnml (Do not modified this below!)

@@ -5,20 +5,23 @@
 /**
  * Hyundai lower
  */
-SPEED(HYUNDAI_LOWER)
-COST(HYUNDAI_LOWER)
-RUNNING(HYUNDAI_LOWER)
-CAPACITY(HYUNDAI_LOWER)
-LOADING(HYUNDAI_LOWER)
+SPEED(HYUNDAI_LOW_FLOOR)
+COST(HYUNDAI_LOW_FLOOR)
+RUNNING(HYUNDAI_LOW_FLOOR)
+CAPACITY(HYUNDAI_LOW_FLOOR)
+LOADING(HYUNDAI_LOW_FLOOR)
 
 // Graphic
 #include "graphic.pnml"
 
-// Green
-item(FEAT_ROADVEHS, ko_bus_HYUNDAI_LOWER, 5010) {
+// Switch
+#include "switch.pnml"
+
+// Hyundai low floor
+item(FEAT_ROADVEHS, ko_bus_HYUNDAI_LOW_FLOOR, 5010) {
     property {
         // Common properties
-        name:                           string(STR_HYUNDAI_LOWER_NAME);
+        name:                           string(STR_HYUNDAI_LOW_FLOOR_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1980, 1, 1);
         road_type:                      ROAD;
@@ -52,16 +55,18 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_LOWER, 5010) {
 
     // 그래픽 정의
     graphics {
-        default:                        sw_HYUNDAI_LOWER_wagon;
-        purchase:                       sw_HYUNDAI_LOWER_purchase;
+        default:                        sw_HYUNDAI_LOW_FLOOR_wagon;
+        purchase:                       sw_HYUNDAI_LOW_FLOOR_purchase;
 
-        speed:                          sw_HYUNDAI_LOWER_speed;
-        cost_factor:                    sw_HYUNDAI_LOWER_cost;
-        running_cost_factor:            sw_HYUNDAI_LOWER_runningcost;
-        cargo_capacity:                 sw_HYUNDAI_LOWER_capacity;
-        loading_speed:                  sw_HYUNDAI_LOWER_loadingspeed;
+        speed:                          sw_HYUNDAI_LOW_FLOOR_speed;
+        cost_factor:                    sw_HYUNDAI_LOW_FLOOR_cost;
+        running_cost_factor:            sw_HYUNDAI_LOW_FLOOR_runningcost;
+        cargo_capacity:                 sw_HYUNDAI_LOW_FLOOR_capacity;
+        loading_speed:                  sw_HYUNDAI_LOW_FLOOR_loadingspeed;
 
-        // cargo_subtype_text:             sw_HYUNDAI_LOWER_subtype_text;
+        cargo_subtype_text:             sw_HYUNDAI_LOW_FLOOR_subtype_text;
         additional_text:                string(STR_REFIT_ADDITIONAL_ABLE);
+
+        colour_mapping:                 switch_HYUNDAI_LOW_FLOOR_recolour;
     }
 }
