@@ -1,0 +1,46 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Cargo subtype
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_subtype_text, cargo_subtype) {
+    1:  return string(STR_REFIT_LIVERY_DARK_BLUE);
+    2:  return string(STR_REFIT_LIVERY_PALE_GREEN);
+    3:  return string(STR_REFIT_LIVERY_PINK);
+    4:  return string(STR_REFIT_LIVERY_YELLOW);
+    5:  return string(STR_REFIT_LIVERY_RED);
+    6:  return string(STR_REFIT_LIVERY_LIGHT_BLUE);
+    7:  return string(STR_REFIT_LIVERY_GREEN);
+    8:  return string(STR_REFIT_LIVERY_DARK_GREEN);
+    9:  return string(STR_REFIT_LIVERY_BLUE);
+    10: return string(STR_REFIT_LIVERY_CREAM);
+    11: return string(STR_REFIT_LIVERY_MAUVE);
+    12: return string(STR_REFIT_LIVERY_PURPLE);
+    13: return string(STR_REFIT_LIVERY_ORANGE);
+    14: return string(STR_REFIT_LIVERY_BROWN);
+    15: return string(STR_REFIT_LIVERY_GREY);
+    16: return string(STR_REFIT_LIVERY_WHITE);
+    return string(STR_REFIT_LIVERY_COMPANY_COLOUR);
+}
+
+// Colour remapping
+switch(FEAT_ROADVEHS, SELF, switch_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_recolour, cargo_subtype) {
+    1:  palette_1cc(COLOUR_DARK_BLUE);
+    2:  palette_1cc(COLOUR_PALE_GREEN);
+    3:  palette_1cc(COLOUR_PINK);
+    4:  palette_1cc(COLOUR_YELLOW);
+    5:  palette_1cc(COLOUR_RED);
+    6:  palette_1cc(COLOUR_LIGHT_BLUE);
+    7:  palette_1cc(COLOUR_GREEN);
+    8:  palette_1cc(COLOUR_DARK_GREEN);
+    9:  palette_1cc(COLOUR_BLUE);
+    10: palette_1cc(COLOUR_CREAM);
+    11: palette_1cc(COLOUR_MAUVE);
+    12: palette_1cc(COLOUR_PURPLE);
+    13: palette_1cc(COLOUR_ORANGE);
+    14: palette_1cc(COLOUR_BROWN);
+    15: palette_1cc(COLOUR_GREY);
+    16: palette_1cc(COLOUR_WHITE);
+    return CB_RESULT_COLOUR_MAPPING_ADD_CC;
+}

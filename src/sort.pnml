@@ -1,0 +1,8 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+sort(FEAT_ROADVEHS, [
+	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_SEOUL,   // 5010
+]);

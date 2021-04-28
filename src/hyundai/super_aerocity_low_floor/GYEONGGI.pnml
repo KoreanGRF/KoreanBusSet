@@ -1,0 +1,71 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+/**
+ * Hyundai Super Aerocity Low-floor (Seoul)
+ */
+SPEED(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
+COST(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
+RUNNING(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
+CAPACITY(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
+LOADING(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
+
+// Graphic
+#include "SEOUL_graphic.pnml"
+
+// Switch
+#include "SEOUL_switch.pnml"
+
+// Hyundai low floor
+item(FEAT_ROADVEHS, ko_bus_HYUNDAI_SUPER_AEROCITY_LF_SEOUL, 5010) {
+    property {
+        // Common properties
+        name:                           string(STR_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;  //SOUND_BUS_START_PULL_AWAY_WITH_HORN
+    }
+    graphics {
+        default:                        set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC;
+        purchase:                       set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC;
+
+        speed:                          sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_speed;
+        cost_factor:                    sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_cost;
+        running_cost_factor:            sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_runningcost;
+        cargo_capacity:                 sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_capacity;
+        loading_speed:                  sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_loadingspeed;
+
+        cargo_subtype_text:             sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_subtype_text;
+        additional_text:                string(STR_REFIT_ADDITIONAL_ABLE);
+
+        // Company colours remapping
+        colour_mapping:                 switch_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_recolour;
+    }
+}

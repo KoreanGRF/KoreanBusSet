@@ -147,5 +147,12 @@ sw_loading_speed_factor =   1 << max(0, min(coeff_loading_speed, 3));
 // Load spec
 #include "generated/spec.pnml"
 
+// Templates
+#include "src/template/hyundai.pnml"
+
 // Items
-#include "./src/hyundai/lower/item.pnml"
+// #include "./src/hyundai/lower/item.pnml"
+#include "./src/hyundai/super_aerocity_low_floor/SEOUL.pnml"
+
+// Sort
+#include "./src/sort.pnml"

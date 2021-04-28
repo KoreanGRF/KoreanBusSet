@@ -1,0 +1,10 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase, "./src/hyundai/super_aerocity_low_floor/SEOUL.png") {
+// }
+spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC, "./src/hyundai/super_aerocity_low_floor/SEOUL.png") {
+    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 0)
+}
