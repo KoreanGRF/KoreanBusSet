@@ -4,5 +4,7 @@
 ------------------------------------------------------------------------------*/
 
 sort(FEAT_ROADVEHS, [
-	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_SEOUL,   // 5010
+	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_SEOUL,      // 5010
+	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI,   // 5011
+	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_OTHER,      // 5012
 ]);

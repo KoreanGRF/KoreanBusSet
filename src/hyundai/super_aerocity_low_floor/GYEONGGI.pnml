@@ -3,27 +3,27 @@
  * https://github.com/KoreanGRF/KoreanBusSet
 ------------------------------------------------------------------------------*/
 /**
- * Hyundai Super Aerocity Low-floor (Seoul)
+ * Hyundai Super Aerocity Low-floor (Gyeonggi-do)
  */
-SPEED(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
-COST(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
-RUNNING(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
-CAPACITY(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
-LOADING(HYUNDAI_SUPER_AEROCITY_LF_SEOUL)
+SPEED(HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI)
+COST(HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI)
+RUNNING(HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI)
+CAPACITY(HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI)
+LOADING(HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI)
 
 // Graphic
-#include "SEOUL_graphic.pnml"
+#include "GYEONGGI_graphic.pnml"
 
 // Switch
-#include "SEOUL_switch.pnml"
+#include "GYEONGGI_switch.pnml"
 
 // Hyundai low floor
-item(FEAT_ROADVEHS, ko_bus_HYUNDAI_SUPER_AEROCITY_LF_SEOUL, 5010) {
+item(FEAT_ROADVEHS, ko_bus_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI, 5011) {
     property {
         // Common properties
-        name:                           string(STR_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_NAME);
+        name:                           string(STR_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              var_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_INTRODUCTION;
+        introduction_date:              var_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_INTRODUCTION;
         road_type:                      ROAD;
         sprite_id:                      SPRITE_ID_NEW_ROADVEH;
 
@@ -53,19 +53,19 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_SUPER_AEROCITY_LF_SEOUL, 5010) {
         sound_effect:                   SOUND_BUS_START_PULL_AWAY;  //SOUND_BUS_START_PULL_AWAY_WITH_HORN
     }
     graphics {
-        default:                        set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC;
-        purchase:                       set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC;
+        default:                        sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI;
+        purchase:                       sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_purchase;
 
-        speed:                          sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_speed;
-        cost_factor:                    sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_cost;
-        running_cost_factor:            sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_runningcost;
-        cargo_capacity:                 sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_capacity;
-        loading_speed:                  sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_loadingspeed;
+        speed:                          sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_speed;
+        cost_factor:                    sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_cost;
+        running_cost_factor:            sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_runningcost;
+        cargo_capacity:                 sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_capacity;
+        loading_speed:                  sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_loadingspeed;
 
-        cargo_subtype_text:             sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_subtype_text;
-        additional_text:                string(STR_REFIT_ADDITIONAL_ABLE);
+        cargo_subtype_text:             sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_subtype_text;
+        additional_text:                string(STR_ADDITIONAL_TEXT_REGION_GYEONGGI);
 
         // Company colours remapping
-        colour_mapping:                 switch_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_recolour;
+        colour_mapping:                 sw_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_recolour;
     }
 }

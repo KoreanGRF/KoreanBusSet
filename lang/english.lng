@@ -9,9 +9,23 @@ STR_GRF_URL                                      :https://telk.kr/ottd/newgrf/ko
 # Vehicle names
 STR_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_NAME         :Hyundai Super Aerocity Low-floor Bus (Seoul)
 STR_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_NAME      :Hyundai Super Aerocity Low-floor Bus (Gyeonggi-do)
+STR_HYUNDAI_SUPER_AEROCITY_LF_OTHER_NAME         :Hyundai Super Aerocity Low-floor Bus
 
+# Additional textsa
+STR_ADDITIONAL_TEXT_REGION_SEOUL                 :Region: {ORANGE}Seoul
+STR_ADDITIONAL_TEXT_REGION_GYEONGGI              :Region: {ORANGE}Gyeonggi-do
 
-# Refit
+# Refit (region)
+STR_REFIT_LIVERY_CHEONAN                         : (Cheonan)
+STR_REFIT_LIVERY_BUSAN_2000                      : (Busan, 2000~)
+STR_REFIT_LIVERY_BUSAN_2017                      : (Busan, 2017~)
+STR_REFIT_LIVERY_GWANGJU_1                       : (Gwangju, Yellow)
+STR_REFIT_LIVERY_GWANGJU_2                       : (Gwangju, Red)
+STR_REFIT_LIVERY_ULSAN                           : (Ulsan)
+STR_REFIT_LIVERY_CHUNGBUK                        : (Chungcheongbuk-do)
+
+# Refit (recolour)
+STR_REFIT_LIVERY_MANUFACTURE                     : (Manufacture)
 STR_REFIT_LIVERY_COMPANY_COLOUR                  : (Company colour)
 STR_REFIT_LIVERY_DARK_BLUE                       : (Dark Blue)
 STR_REFIT_LIVERY_PALE_GREEN                      : (Pale Green)
@@ -29,9 +43,25 @@ STR_REFIT_LIVERY_ORANGE                          : (Orange)
 STR_REFIT_LIVERY_BROWN                           : (Brown)
 STR_REFIT_LIVERY_GREY                            : (Grey)
 STR_REFIT_LIVERY_WHITE                           : (White)
+STR_REFIT_LIVERY_DARK_BLUE_2                     : (Dark Blue)
+STR_REFIT_LIVERY_PALE_GREEN_2                    : (Pale Green)
+STR_REFIT_LIVERY_PINK_2                          : (Pink)
+STR_REFIT_LIVERY_YELLOW_2                        : (Yellow)
+STR_REFIT_LIVERY_RED_2                           : (Red)
+STR_REFIT_LIVERY_LIGHT_BLUE_2                    : (Light Blue)
+STR_REFIT_LIVERY_GREEN_2                         : (Green)
+STR_REFIT_LIVERY_DARK_GREEN_2                    : (Dark Green)
+STR_REFIT_LIVERY_BLUE_2                          : (Blue)
+STR_REFIT_LIVERY_CREAM_2                         : (Cream)
+STR_REFIT_LIVERY_MAUVE_2                         : (Mauve)
+STR_REFIT_LIVERY_PURPLE_2                        : (Purple)
+STR_REFIT_LIVERY_ORANGE_2                        : (Orange)
+STR_REFIT_LIVERY_BROWN_2                         : (Brown)
+STR_REFIT_LIVERY_GREY_2                          : (Grey)
+STR_REFIT_LIVERY_WHITE_2                         : (White)
 
-STR_REFIT_ADDITIONAL_ABLE                        :{GREEN}Refittable
-STR_REFIT_ADDITIONAL_UNABLE                      :{RED}Unrefittable
+STR_REFIT_LIVERY_COMPANY_COLOUR_2006             : (Company colour, models in 2006 below)
+STR_REFIT_LIVERY_COMPANY_COLOUR_2020             : (Company colour, models in 2020 below)
 
 # Parameters
 STR_PARAM_SPEED_NAME                             :Speed

@@ -3,8 +3,13 @@
  * https://github.com/KoreanGRF/KoreanBusSet
 ------------------------------------------------------------------------------*/
 
-// spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase, "./src/hyundai/super_aerocity_low_floor/SEOUL.png") {
-// }
+spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase, "./src/hyundai/super_aerocity_low_floor/SEOUL.png") {
+    tmpl_purchase_detail(0, 0, 31, 13, -14, -6)
+}
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC, "./src/hyundai/super_aerocity_low_floor/SEOUL.png") {
     tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 0)
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase, 1) {
+    set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase;
 }
