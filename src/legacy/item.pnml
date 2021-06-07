@@ -1,0 +1,402 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+/**
+ * Legacy bus
+ */
+SPEED(LEGACY_BUS)
+COST(LEGACY_BUS)
+RUNNING(LEGACY_BUS)
+CAPACITY(LEGACY_BUS)
+LOADING(LEGACY_BUS)
+
+// Graphic
+#include "graphic.pnml"
+
+// Switch
+#include "switch.pnml"
+
+// Legacy bus, Seoul (green)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_GREEN, 5001) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_SEOUL_GREEN_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_SEOUL_GREEN_engine;
+        purchase:                       set_LEGACY_BUS_SEOUL_GREEN_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+    }
+}
+
+// Legacy bus, Seoul (blue)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_BLUE, 5002) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_SEOUL_BLUE_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_SEOUL_BLUE_engine;
+        purchase:                       set_LEGACY_BUS_SEOUL_BLUE_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+    }
+}
+
+// Legacy bus, Seoul (red)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_RED, 5003) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_SEOUL_RED_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_SEOUL_RED_engine;
+        purchase:                       set_LEGACY_BUS_SEOUL_RED_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+    }
+}
+
+// Legacy bus, Seoul (yellow)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_YELLOW, 5004) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_SEOUL_YELLOW_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_SEOUL_YELLOW_engine;
+        purchase:                       set_LEGACY_BUS_SEOUL_YELLOW_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+    }
+}
+
+// Legacy bus, Gyeonggi (green)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_GREEN, 5005) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_GYEONGGI_GREEN_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_GYEONGGI_GREEN_engine;
+        purchase:                       sw_LEGACY_BUS_GYEONGGI_GREEN_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+
+		cargo_subtype_text:             sw_LEGACY_BUS_GYEONGGI_GREEN_cargo_subtype_text;
+    }
+}
+
+// Legacy bus, Gyeonggi (red)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_RED, 5006) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_GYEONGGI_RED_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_GYEONGGI_RED_engine;
+        purchase:                       sw_LEGACY_BUS_GYEONGGI_RED_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+
+		// cargo_subtype_text:             sw_LEGACY_BUS_GYEONGGI_RED_cargo_subtype_text;
+    }
+}
+
+// Legacy bus, Gyeonggi (yellow)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_YELLOW, 5007) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_GYEONGGI_YELLOW_engine;
+        purchase:                       sw_LEGACY_BUS_GYEONGGI_YELLOW_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+
+		// cargo_subtype_text:             sw_LEGACY_BUS_GYEONGGI_YELLOW_cargo_subtype_text;
+    }
+}
+
+// Legacy bus, Gyeonggi (blue)
+item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_BLUE, 5008) {
+    property {
+        // Common properties
+        name:                           string(STR_LEGACY_BUS_GYEONGGI_BLUE_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_LEGACY_BUS_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   25;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_LEGACY_BUS_GYEONGGI_BLUE_engine;
+        purchase:                       sw_LEGACY_BUS_GYEONGGI_BLUE_purchase;
+
+        speed:                          sw_LEGACY_BUS_speed;
+        cost_factor:                    sw_LEGACY_BUS_cost;
+        running_cost_factor:            sw_LEGACY_BUS_runningcost;
+        cargo_capacity:                 sw_LEGACY_BUS_capacity;
+        loading_speed:                  sw_LEGACY_BUS_loadingspeed;
+
+		// cargo_subtype_text:             sw_LEGACY_BUS_GYEONGGI_BLUE_cargo_subtype_text;
+    }
+}

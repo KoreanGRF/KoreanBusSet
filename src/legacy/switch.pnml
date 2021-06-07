@@ -1,0 +1,76 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Seoul (green)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_SEOUL_GREEN_engine, cargo_subtype) {
+	set_LEGACY_BUS_SEOUL_GREEN_graphic;
+}
+
+// Seoul (blue)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_SEOUL_BLUE_engine, cargo_subtype) {
+	set_LEGACY_BUS_SEOUL_BLUE_graphic;
+}
+
+// Seoul (red)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_SEOUL_RED_engine, cargo_subtype) {
+	set_LEGACY_BUS_SEOUL_RED_graphic;
+}
+
+// Seoul (yellow)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_SEOUL_YELLOW_engine, cargo_subtype) {
+	set_LEGACY_BUS_SEOUL_YELLOW_graphic;
+}
+
+// Gbus (green)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_GREEN_engine, cargo_subtype) {
+    1: set_LEGACY_BUS_GYEONGGI_GREEN_LOWER_graphic;
+    set_LEGACY_BUS_GYEONGGI_GREEN_NORMAL_graphic;
+}
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_GREEN_purchase, cargo_subtype) {
+    set_LEGACY_BUS_GYEONGGI_GREEN_NORMAL_purchase;
+}
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_GREEN_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LEGACY_LOWER);
+    return string(STR_REFIT_LEGACY_NORMAL);
+}
+
+// Gbus (red)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_RED_engine, cargo_subtype) {
+    // 1: set_LEGACY_BUS_GYEONGGI_RED_LOWER_graphic;
+    set_LEGACY_BUS_GYEONGGI_RED_NORMAL_graphic;
+}
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_RED_purchase, cargo_subtype) {
+    set_LEGACY_BUS_GYEONGGI_RED_NORMAL_purchase;
+}
+// switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_RED_cargo_subtype_text, cargo_subtype) {
+//     1: return string(STR_REFIT_LEGACY_LOWER);
+//     return string(STR_REFIT_LEGACY_NORMAL);
+// }
+
+// Gbus (yellow)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_YELLOW_engine, cargo_subtype) {
+    // 1: set_LEGACY_BUS_GYEONGGI_YELLOW_LOWER_graphic;
+    set_LEGACY_BUS_GYEONGGI_YELLOW_NORMAL_graphic;
+}
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_YELLOW_purchase, cargo_subtype) {
+    set_LEGACY_BUS_GYEONGGI_YELLOW_NORMAL_purchase;
+}
+// switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_YELLOW_cargo_subtype_text, cargo_subtype) {
+//     1: return string(STR_REFIT_LEGACY_LOWER);
+//     return string(STR_REFIT_LEGACY_NORMAL);
+// }
+
+// Gbus (blue)
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_BLUE_engine, cargo_subtype) {
+    // 1: set_LEGACY_BUS_GYEONGGI_BLUE_LOWER_graphic;
+    set_LEGACY_BUS_GYEONGGI_BLUE_NORMAL_graphic;
+}
+switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_BLUE_purchase, cargo_subtype) {
+    set_LEGACY_BUS_GYEONGGI_BLUE_NORMAL_purchase;
+}
+// switch(FEAT_ROADVEHS, SELF, sw_LEGACY_BUS_GYEONGGI_BLUE_cargo_subtype_text, cargo_subtype) {
+//     1: return string(STR_REFIT_LEGACY_LOWER);
+//     return string(STR_REFIT_LEGACY_NORMAL);
+// }

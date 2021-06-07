@@ -1,0 +1,96 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Purchase
+template tmpl_purchase(x, y) {
+    [x,       y,    28,   12,   -14,   -6]
+}
+
+template tmpl_legacy_bus(x, y) {
+    [x+40,    y,    8,    18,   -3,   -11]
+    [x+55,    y,    19,   16,   -14,   -7]
+    [x+85,    y,    28,   12,   -16,   -7]
+    [x+120,   y,    20,   16,   -5,    -7]
+    [x+150,   y,    8,    18,   -3,   -11]
+    [x+165,   y,    20,   16,   -14,   -7]
+    [x+190,   y,    28,   12,   -16,   -7]
+    [x+230,   y,    19,   16,   -5,    -7]
+}
+
+
+spriteset(set_LEGACY_BUS_SEOUL_BLUE_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 0)
+}
+spriteset(set_LEGACY_BUS_SEOUL_GREEN_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 30)
+}
+spriteset(set_LEGACY_BUS_SEOUL_YELLOW_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 60)
+}
+spriteset(set_LEGACY_BUS_SEOUL_RED_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 90)
+}
+spriteset(set_LEGACY_BUS_GYEONGGI_GREEN_LOWER_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 120)
+}
+spriteset(set_LEGACY_BUS_GYEONGGI_GREEN_NORMAL_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 150)
+}
+// spriteset(set_LEGACY_BUS_GYEONGGI_RED_LOWER_graphic, "./src/legacy/LEGACY.png") {
+//     tmpl_legacy_bus(0, ?)
+// }
+spriteset(set_LEGACY_BUS_GYEONGGI_RED_NORMAL_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 180)
+}
+// spriteset(set_LEGACY_BUS_GYEONGGI_YELLOW_LOWER_graphic, "./src/legacy/LEGACY.png") {
+//     tmpl_legacy_bus(0, ?)
+// }
+spriteset(set_LEGACY_BUS_GYEONGGI_YELLOW_NORMAL_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 210)
+}
+// spriteset(set_LEGACY_BUS_GYEONGGI_BLUE_LOWER_graphic, "./src/legacy/LEGACY.png") {
+//     tmpl_legacy_bus(0, ?)
+// }
+spriteset(set_LEGACY_BUS_GYEONGGI_BLUE_NORMAL_graphic, "./src/legacy/LEGACY.png") {
+    tmpl_legacy_bus(0, 240)
+}
+
+// Purchase image
+spriteset(set_LEGACY_BUS_SEOUL_BLUE_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 0)
+}
+spriteset(set_LEGACY_BUS_SEOUL_GREEN_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 30)
+}
+spriteset(set_LEGACY_BUS_SEOUL_YELLOW_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 60)
+}
+spriteset(set_LEGACY_BUS_SEOUL_RED_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 90)
+}
+spriteset(set_LEGACY_BUS_GYEONGGI_GREEN_LOWER_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 120)
+}
+spriteset(set_LEGACY_BUS_GYEONGGI_GREEN_NORMAL_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 150)
+}
+// spriteset(set_LEGACY_BUS_GYEONGGI_RED_LOWER_purchase, "./src/legacy/LEGACY.png") {
+//     tmpl_purchase(0, ?)
+// }
+spriteset(set_LEGACY_BUS_GYEONGGI_RED_NORMAL_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 180)
+}
+// spriteset(set_LEGACY_BUS_GYEONGGI_YELLOW_LOWER_purchase, "./src/legacy/LEGACY.png") {
+//     tmpl_purchase(0, ?)
+// }
+spriteset(set_LEGACY_BUS_GYEONGGI_YELLOW_NORMAL_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 210)
+}
+// spriteset(set_LEGACY_BUS_GYEONGGI_BLUE_LOWER_purchase, "./src/legacy/LEGACY.png") {
+//     tmpl_purchase(0, ?)
+// }
+spriteset(set_LEGACY_BUS_GYEONGGI_BLUE_NORMAL_purchase, "./src/legacy/LEGACY.png") {
+    tmpl_purchase(0, 240)
+}
