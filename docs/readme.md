@@ -1,54 +1,32 @@
-개행 수정
-
 # Korean Bus Set
-**한국 버스 세트**는 한국 버스를 추가해주는 NewGRF 입니다. 
+[English](./README.md) | [한국어](./README.ko.md)
 
+**Korean Bus Set** is an OpenTTD NewGRF that offers various buses of the Republic of Korea, a.k.a South Korea.   
+You can download this via Online content in-game, or [Github release page](https://github.com/KoreanGRF/KoreanBusSet/releases).
 
+## Development
+### How to build
+You need [NML](https://github.com/OpenTTD/nml) and **Python 3** to build this NewGRF.  
+Run ``make`` in terminal shell. If you are on Windows, open a command prompt and type ``bash`` before it.  
+``make clean`` will clean all generated & compiled files.
 
-## 1. 저작권
- * 그래픽/프로그래밍:	텔크 (telk5093@gmail.com / telk.kr)  
-<br />
-본 NewGRF의 그래픽 및 프로그래밍에 사용된 코드 소스의 저작권은 텔크에게 있습니다.  
-<br />
-개인적으로 사용하기 위해 내용을 수정하는 것은 허용하나 수정 후 재배포하는 행위는 제작자와 사전 협조를 구한 뒤에 해주시기 바랍니다.
+### Translations
+First, please be aware that the official language of Korean Bus Set is Korean, not English.  
+I'm not a fluent English speaker, so english texts might have different meanings from than Korean.
 
+To translate the Korean Bus Set into your native language, please pull the request via this github project.  
+If you don't know how to make a Pull Request, uploading them at Issues is fine, too.
+You shall translate:
+- [/lang/english.lng](https://github.com/KoreanGRF/KoreanBusSet/blob/master/lang/english.lng)  
+And if you want to translate [the download page of my own site](https://telk.kr/ottd/newgrf/ko_bus_set?lang=en), please contact me: telk5093@gmail.com
 
+## Links
+- [TELKLAND](http://telk.kr)
+- Official Download Page ([Korean](https://telk.kr/ottd/newgrf/ko_bus_set/?lang=kr) / [English](https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en))
 
-## 2. 한국 버스 세트에 대하여
-본 한국 버스 세트는 수도권 버스 6종을 추가시켜 줍니다. 추후 다른 버스도 추가할수 있도록 노력하겠습니다.  
-이 NewGRF을 추가하면 다음의 버스가 추가됩니다:
+## Contributors
+All names of contributors can be found at [contributors.md](https://github.com/KoreanGRF/KoreanBusSet/blob/master/docs/contributors.md)
 
- * 서울 저상 버스 (B)
- * 서울 저상 버스 (G)
- * 서울 저상 버스 (R)
- * 서울 저상 버스 (Y)
- * 경기도 G 버스 (G)
- * 경기도 G 버스 (R)
- * 경기도 G 버스 (Y)
- * 경기도 G 버스 (B)
-
-
-
-## 3. 설치 및 적용 방법
-  1. OpenTTD가 설치된 폴더(ex. C:\OpenTTD\) 안으로 들어갑니다.
-  2. 폴더 안에 /newgrf 또는 /content_download/newgrf 폴더로 들어갑니다.
-  3. 다운로드 받은 파일(Korean_Bus_Set-#.#.##.tar)을 압축을 풀지 않은 상태 그대로 newgrf 폴더로 이동(또는 복사)합니다.
-  4. OpenTTD 게임을 실행시켜 최초 화면에서 ``NewGRF 설정`` 창을 엽니다.
-  5. 하단 목록에서 '한국 버스 세트 v#.#.##'를 찾아 ``추가`` 버튼을 누릅니다.
-  6. 'NewGRF 설정' 창 우측 하단에 있는 ``매개변수 설정`` 버튼을 눌러 자신이 원하는 설정을 마친 뒤에 새로운 게임을 시작하여 즐기면 됩니다.
-
-
-
-## 4. 자주 묻는 질문
-**Q. 매개 변수 설정으로 무엇을 할 수 있나요? / 속력 계수를 최댓값으로 해도 버스 속도가 많이 오르지 않아요!**  
-A. 버스의 속력이나 수송량을 조절할 수 있습니다.  
-수송량은 5 ~ 500 단위의 범위 내에서 변경이 가능하지만 속력은 버스의 특성상 최대 201km/h 까지만 조절 가능하며, 최댓값(20)으로 설정하여도 버스의 힘이 350마력 정도라 약 150 ~ 160km/h 까지만 가속될 것입니다.
-
-
-
-## 5. 알려진 버그
-
-
-
-## 6. 기타 사항
-
+## License
+This NewGRF follows **[the Creative Commons License v3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)** (CC-BY-NC-SA v3.0)  
+By contributing this project, it means that you agree to this license.

@@ -1,65 +1,43 @@
-================================================================================
-                             한국 버스 세트 Readme
-================================================================================
+===================================
+    한국 버스 세트 {{VERSION}}
+    Korean Bus Set {{VERSION}}
+===================================
 
-
+List
 ==========
-목차
+1. About
+2. Contact & Translation
+3. Credits
+4. Copyrights
+
+
+1. About
 ==========
-1. 한국 버스 세트에 대하여
-2. 설치 및 적용 방법
-3. 자주 묻는 질문
-4. 알려진 버그
-5. 기타 사항
+  Korean Bus Set has buses of the Republic of Korea (South Korea).
 
-
-
-
-
-1. 한국 버스 세트에 대하여
+2. Contact & Translation
 ==========
-  본 한국 버스 세트는 수도권 버스 6종을 추가시켜줍니다. 추후 다른 버스를 추가할
-수 있도록 노력하겠습니다. 이 NewGRF을 추가하면 다음의 버스가 추가됩니다:
++ If you have found a bug or you have a sugguestion, please make an issue at
+  our Github(http://github.com/KoreanGRF/KoreanTrainSet), visit coder's website
+  TELKLAND(http://telk.kr) or email to TELK(telk5093@gmail.com)
++ If you want to translate Korean Train Set and the download page of Korean Train Set
+  into your language, please visit the Github project(http://github.com/KoreanGRF/KoreanTrainSet)
+  and see "Translations".
++ Please ask to TELK(OpenTTD Korean translator) to get more information in English.
++ Links
+  * TELKLAND - http://telk.kr
+  * Official Download Page - http://telk.kr/ottd/newgrf/ko_train_set/?lang=kr
+  * Github - https://github.com/KoreanGRF/KoreanTrainSet
 
-  - 서울 저상 버스 (B)
-  - 서울 저상 버스 (G)
-  - 서울 저상 버스 (R)
-  - 서울 저상 버스 (Y)
-  - 경기도 G 버스 (G)
-  - 경기도 G 버스 (R)
-  - 경기도 G 버스 (Y)
-  - 경기도 G 버스 (B)
-
-
-
-2. 설치 및 적용 방법
+3. Credits
 ==========
-  (1) OpenTTD가 설치된 폴더(ex. C:\OpenTTD\) 안으로 들어간다.
-  (2) 폴더 안에 /newgrf 또는 /content_download/newgrf 폴더로 들어갑니다.
-  (3) 다운로드 받은 파일(Korean_Bus_Set-#.#.##.tar)을 압축을 풀지 않은 상태로
-      그대로 newgrf 폴더로 이동(또는 복사)한다.
-  (4) OpenTTD 게임을 실행시켜 최초 화면에서 [NewGRF 설정] 창을 연다.
-  (5) 하단 목록에서 '한국 버스 세트 v#.#.##'를 찾아 [추가] 버튼을 누른다.
-  (6) 'NewGRF 설정' 창 우측 하단에 있는 [파라미터 설정] 버튼을 눌러 자신이 원하
-      는 설정을 마친 뒤에 새로운 게임을 시작하여 즐긴다.
+TELK (telk5093@gmail.com, http://telk.kr)
+  - NML Codes, legacy bus graphics
+kimgas
+  - Major bus graphics
 
-
-
-
-3. 자주 묻는 질문
+4. Copyrights
 ==========
-Q. 매개 변수 설정으로 무엇을 할 수 있나요?
-   / 속력 계수를 최댓값으로 해도 버스 속도가 많이 오르지 않아요!
-A. 버스의 속력이나 수송량을 조절할 수 있습니다. 수송량은 5~500 단위의 범위 내에
-   서 변경이 가능하지만 속력은 버스의 특성상 최대 201km/h 까지만 조절 가능하며
-   최댓값(20)으로 설정하여도 버스의 힘이 350마력 정도라 약 150~160km/h 까지만 가
-   속될 것입니다.
-
-
-4. 알려진 버그
-==========
-
-
-
-5. 기타 사항
-==========
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or
+send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
