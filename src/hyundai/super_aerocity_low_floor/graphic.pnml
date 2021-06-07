@@ -3,6 +3,23 @@
  * https://github.com/KoreanGRF/KoreanBusSet
 ------------------------------------------------------------------------------*/
 
+// Seoul
+spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase, "./src/hyundai/super_aerocity_low_floor/SEOUL.png") {
+    tmpl_purchase_detail(0, 0, 31, 13, -14, -6)
+}
+spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC, "./src/hyundai/super_aerocity_low_floor/SEOUL.png") {
+    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 0)
+}
+
+// Gyeonggi
+spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_purchase, "./src/hyundai/super_aerocity_low_floor/GYEONGGI.png") {
+    tmpl_purchase_detail(0, 90, 31, 13, -14, -6)
+}
+spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_CC, "./src/hyundai/super_aerocity_low_floor/GYEONGGI.png") {
+    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 90)
+}
+
+// Other
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_MANUFACTURE_purchase, "./src/hyundai/super_aerocity_low_floor/OTHER.png") {
     tmpl_purchase_detail(0, 0, 31, 13, -14, -6)
 }
@@ -52,6 +69,6 @@ spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_CHUNGBUK, "./src/hyundai/super_aerocity_
     tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 210)
 }
 
-switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_SUPER_AEROCITY_LF_OTHER_purchase, 1) {
-    set_HYUNDAI_SUPER_AEROCITY_LF_MANUFACTURE_purchase;
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_SUPER_AEROCITY_LF_purchase, 1) {
+    set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase;
 }

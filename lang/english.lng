@@ -7,13 +7,15 @@ STR_GRF_DESC                                     :{BLACK}Korean buses including 
 STR_GRF_URL                                      :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
 
 # Vehicle names
-STR_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_NAME         :Hyundai Super Aerocity Low-floor Bus (Seoul)
-STR_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_NAME      :Hyundai Super Aerocity Low-floor Bus (Gyeonggi-do)
-STR_HYUNDAI_SUPER_AEROCITY_LF_OTHER_NAME         :Hyundai Super Aerocity Low-floor Bus
-
-# Additional textsa
-STR_ADDITIONAL_TEXT_REGION_SEOUL                 :Region: {ORANGE}Seoul
-STR_ADDITIONAL_TEXT_REGION_GYEONGGI              :Region: {ORANGE}Gyeonggi-do
+STR_HYUNDAI_SUPER_AEROCITY_LF_NAME               :Hyundai Super Aerocity Low-floor Bus
+STR_LEGACY_BUS_SEOUL_GREEN_NAME                  :Legacy Seoul Bus (Green)
+STR_LEGACY_BUS_SEOUL_RED_NAME                    :Legacy Seoul Bus (Red)
+STR_LEGACY_BUS_SEOUL_YELLOW_NAME                 :Legacy Seoul Bus (Yellow)
+STR_LEGACY_BUS_SEOUL_BLUE_NAME                   :Legacy Seoul Bus (Blue)
+STR_LEGACY_BUS_GYEONGGI_GREEN_NAME               :Legacy Gyeonggi Bus (Green)
+STR_LEGACY_BUS_GYEONGGI_RED_NAME                 :Legacy Gyeonggi Bus (Red)
+STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME              :Legacy Gyeonggi Bus (Yellow)
+STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                :Legacy Gyeonggi Bus (Blue)
 
 # Refit (region)
 STR_REFIT_LIVERY_CHEONAN                         : (Cheonan)
@@ -26,42 +28,42 @@ STR_REFIT_LIVERY_CHUNGBUK                        : (Chungcheongbuk-do)
 
 # Refit (recolour)
 STR_REFIT_LIVERY_MANUFACTURE                     : (Manufacture)
-STR_REFIT_LIVERY_COMPANY_COLOUR                  : (Company colour)
-STR_REFIT_LIVERY_DARK_BLUE                       : (Dark Blue)
-STR_REFIT_LIVERY_PALE_GREEN                      : (Pale Green)
-STR_REFIT_LIVERY_PINK                            : (Pink)
-STR_REFIT_LIVERY_YELLOW                          : (Yellow)
-STR_REFIT_LIVERY_RED                             : (Red)
-STR_REFIT_LIVERY_LIGHT_BLUE                      : (Light Blue)
-STR_REFIT_LIVERY_GREEN                           : (Green)
-STR_REFIT_LIVERY_DARK_GREEN                      : (Dark Green)
-STR_REFIT_LIVERY_BLUE                            : (Blue)
-STR_REFIT_LIVERY_CREAM                           : (Cream)
-STR_REFIT_LIVERY_MAUVE                           : (Mauve)
-STR_REFIT_LIVERY_PURPLE                          : (Purple)
-STR_REFIT_LIVERY_ORANGE                          : (Orange)
-STR_REFIT_LIVERY_BROWN                           : (Brown)
-STR_REFIT_LIVERY_GREY                            : (Grey)
-STR_REFIT_LIVERY_WHITE                           : (White)
-STR_REFIT_LIVERY_DARK_BLUE_2                     : (Dark Blue)
-STR_REFIT_LIVERY_PALE_GREEN_2                    : (Pale Green)
-STR_REFIT_LIVERY_PINK_2                          : (Pink)
-STR_REFIT_LIVERY_YELLOW_2                        : (Yellow)
-STR_REFIT_LIVERY_RED_2                           : (Red)
-STR_REFIT_LIVERY_LIGHT_BLUE_2                    : (Light Blue)
-STR_REFIT_LIVERY_GREEN_2                         : (Green)
-STR_REFIT_LIVERY_DARK_GREEN_2                    : (Dark Green)
-STR_REFIT_LIVERY_BLUE_2                          : (Blue)
-STR_REFIT_LIVERY_CREAM_2                         : (Cream)
-STR_REFIT_LIVERY_MAUVE_2                         : (Mauve)
-STR_REFIT_LIVERY_PURPLE_2                        : (Purple)
-STR_REFIT_LIVERY_ORANGE_2                        : (Orange)
-STR_REFIT_LIVERY_BROWN_2                         : (Brown)
-STR_REFIT_LIVERY_GREY_2                          : (Grey)
-STR_REFIT_LIVERY_WHITE_2                         : (White)
+STR_REFIT_LIVERY_SEOUL_COMPANY_COLOUR            : (Seoul, Company colour)
+STR_REFIT_LIVERY_SEOUL_DARK_BLUE                 : (Seoul, Dark blue)
+STR_REFIT_LIVERY_SEOUL_YELLOW                    : (Seoul, Yellow)
+STR_REFIT_LIVERY_SEOUL_RED                       : (Seoul, Red)
+STR_REFIT_LIVERY_SEOUL_GREEN                     : (Seoul, Green)
+STR_REFIT_LIVERY_SEOUL_BLUE                      : (Seoul, Blue)
+STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR         : (Gyeonggi, Company colour)
+STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE              : (Gyeonggi, Dark blue)
+STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN             : (Gyeonggi, Pale green)
+STR_REFIT_LIVERY_GYEONGGI_PINK                   : (Gyeonggi, Pink)
+STR_REFIT_LIVERY_GYEONGGI_YELLOW                 : (Gyeonggi, Yellow)
+STR_REFIT_LIVERY_GYEONGGI_RED                    : (Gyeonggi, Red)
+STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE             : (Gyeonggi, Light blue)
+STR_REFIT_LIVERY_GYEONGGI_GREEN                  : (Gyeonggi, Green)
+STR_REFIT_LIVERY_GYEONGGI_BLUE                   : (Gyeonggi, Blue)
+# STR_REFIT_LIVERY_COMPANY_COLOUR                  : (Company colour)
+# STR_REFIT_LIVERY_DARK_BLUE                       : (Dark Blue)
+# STR_REFIT_LIVERY_PALE_GREEN                      : (Pale Green)
+# STR_REFIT_LIVERY_PINK                            : (Pink)
+# STR_REFIT_LIVERY_YELLOW                          : (Yellow)
+# STR_REFIT_LIVERY_RED                             : (Red)
+# STR_REFIT_LIVERY_LIGHT_BLUE                      : (Light Blue)
+# STR_REFIT_LIVERY_GREEN                           : (Green)
+# STR_REFIT_LIVERY_DARK_GREEN                      : (Dark Green)
+# STR_REFIT_LIVERY_BLUE                            : (Blue)
+# STR_REFIT_LIVERY_CREAM                           : (Cream)
+# STR_REFIT_LIVERY_MAUVE                           : (Mauve)
+# STR_REFIT_LIVERY_PURPLE                          : (Purple)
+# STR_REFIT_LIVERY_ORANGE                          : (Orange)
+# STR_REFIT_LIVERY_BROWN                           : (Brown)
+# STR_REFIT_LIVERY_GREY                            : (Grey)
+# STR_REFIT_LIVERY_WHITE                           : (White)
 
-STR_REFIT_LIVERY_COMPANY_COLOUR_2006             : (Company colour, models in 2006 below)
-STR_REFIT_LIVERY_COMPANY_COLOUR_2020             : (Company colour, models in 2020 below)
+# Refit (legacy)
+STR_REFIT_LEGACY_LOWER                             : (Normal)
+STR_REFIT_LEGACY_NORMAL                            : (Low floor)
 
 # Parameters
 STR_PARAM_SPEED_NAME                             :Speed
@@ -74,6 +76,8 @@ STR_PARAM_FACTOR_CARGO_CAPACITY_NAME             :Cargo capacity
 STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :Cargo capacity of buses. The higher this value, the more cargo can be delivered.{}It is the same as real if you set this by 'x2'.{}{RED}Warning!{WHITE} This setting will be applied from newly created buses.
 STR_PARAM_FACTOR_LOADING_SPEED_NAME              :Loading speed
 STR_PARAM_FACTOR_LOADING_SPEED_DESC              :Loading speed of buses. The higher this value, the more cargo can load cargos faster.
+STR_PARAM_USE_LEGACY_BUS_NAME                    :Use legacy bus
+STR_PARAM_USE_LEGACY_BUS_DESC                    :Use legacy buses used until v0.3.6.
 
 # Parameters' value
 STR_PARAM_OPT_FACTOR_BY_0                        :x0

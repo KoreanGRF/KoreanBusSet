@@ -7,9 +7,8 @@
 vehicleList = {}
 
 #                                                     speed1  cost    running_cost  capacity loading_speed power   weight  introduction
-vehicleList['HYUNDAI_SUPER_AEROCITY_LF_SEOUL']      = 100,    10,     10,           50,      10,           231,    14,     (2008, 1, 1)
-vehicleList['HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI']   = 100,    10,     10,           50,      10,           231,    14,     (2008, 1, 1)
-vehicleList['HYUNDAI_SUPER_AEROCITY_LF_OTHER']      = 100,    10,     10,           50,      10,           231,    14,     (2008, 1, 1)
+vehicleList['HYUNDAI_SUPER_AEROCITY_LF']            = 80,     10,     10,           65,      10,           231,    12,     (2008, 1, 1)
+vehicleList['LEGACY_BUS']                           = 100,    10,     10,           50,      10,           261,    30,     (1980, 1, 1)
 
 
 # Generates spec.pnml (Do not modified this below!)

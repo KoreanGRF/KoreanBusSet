@@ -120,6 +120,18 @@ grf {
             };
         }
     }
+
+    // Boolean
+    param 10 {
+        // Legacy bus
+        bool_use_legacy_bus {
+            type: bool;
+            name: string(STR_PARAM_USE_LEGACY_BUS_NAME);
+            desc: string(STR_PARAM_USE_LEGACY_BUS_DESC);
+            bit: 1;
+            def_value: 0;
+        }
+    }
 }
 
 
@@ -152,9 +164,13 @@ sw_loading_speed_factor =   1 << max(0, min(coeff_loading_speed, 3));
 #include "src/template/hyundai.pnml"
 
 // Items
-#include "./src/hyundai/super_aerocity_low_floor/SEOUL.pnml"
-#include "./src/hyundai/super_aerocity_low_floor/GYEONGGI.pnml"
-#include "./src/hyundai/super_aerocity_low_floor/OTHER.pnml"
+#include "./src/hyundai/super_aerocity_low_floor/item.pnml"
+#include "./src/legacy/item.pnml"
+
+// Legacy bus
+if(!bool_use_legacy_bus) {
+    disable_item(FEAT_ROADVEHS, 5001, 5008);
+}
 
 // Sort
 #include "./src/sort.pnml"

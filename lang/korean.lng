@@ -7,13 +7,15 @@ STR_GRF_DESC                                     :{BLACK}서울 및 경기도 �
 STR_GRF_URL                                      :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
 
 # Vehicle names
-STR_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_NAME         :현대 슈퍼에어로시티 저상 버스 (서울)
-STR_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_NAME      :현대 슈퍼에어로시티 저상 버스 (경기도)
-STR_HYUNDAI_SUPER_AEROCITY_LF_OTHER_NAME         :현대 슈퍼에어로시티 저상 버스
-
-# Additional textsa
-STR_ADDITIONAL_TEXT_REGION_SEOUL                 :지역: {ORANGE}서울
-STR_ADDITIONAL_TEXT_REGION_GYEONGGI              :지역: {ORANGE}경기도
+STR_HYUNDAI_SUPER_AEROCITY_LF_NAME               :현대 슈퍼에어로시티 저상 버스
+STR_LEGACY_BUS_SEOUL_GREEN_NAME                  :구 서울 버스 (G, 저상)
+STR_LEGACY_BUS_SEOUL_RED_NAME                    :구 서울 버스 (R, 저상)
+STR_LEGACY_BUS_SEOUL_YELLOW_NAME                 :구 서울 버스 (Y, 저상)
+STR_LEGACY_BUS_SEOUL_BLUE_NAME                   :구 서울 버스 (B, 저상)
+STR_LEGACY_BUS_GYEONGGI_GREEN_NAME               :구 경기도 G-BUS (녹)
+STR_LEGACY_BUS_GYEONGGI_RED_NAME                 :구 경기도 G-BUS (적)
+STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME              :구 경기도 G-BUS (황)
+STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                :구 경기도 G-BUS (청)
 
 # Refit (region)
 STR_REFIT_LIVERY_CHEONAN                         : (천안)
@@ -26,54 +28,56 @@ STR_REFIT_LIVERY_CHUNGBUK                        : (충청북도)
 
 # Refit (recolour)
 STR_REFIT_LIVERY_MANUFACTURE                     : (제조사 기본)
-STR_REFIT_LIVERY_COMPANY_COLOUR                  : (회사 색상)
-STR_REFIT_LIVERY_DARK_BLUE                       : (어두운 파랑)
-STR_REFIT_LIVERY_PALE_GREEN                      : (연한 초록)
-STR_REFIT_LIVERY_PINK                            : (분홍)
-STR_REFIT_LIVERY_YELLOW                          : (노랑)
-STR_REFIT_LIVERY_RED                             : (빨강)
-STR_REFIT_LIVERY_LIGHT_BLUE                      : (밝은 파랑)
-STR_REFIT_LIVERY_GREEN                           : (녹색)
-STR_REFIT_LIVERY_DARK_GREEN                      : (어두운 녹색)
-STR_REFIT_LIVERY_BLUE                            : (파랑)
-STR_REFIT_LIVERY_CREAM                           : (연한 분홍)
-STR_REFIT_LIVERY_MAUVE                           : (연한 보라)
-STR_REFIT_LIVERY_PURPLE                          : (보라)
-STR_REFIT_LIVERY_ORANGE                          : (주황)
-STR_REFIT_LIVERY_BROWN                           : (갈색)
-STR_REFIT_LIVERY_GREY                            : (회색)
-STR_REFIT_LIVERY_WHITE                           : (흰색)
-STR_REFIT_LIVERY_DARK_BLUE_2                     : (어두운 파랑)
-STR_REFIT_LIVERY_PALE_GREEN_2                    : (연한 초록)
-STR_REFIT_LIVERY_PINK_2                          : (분홍)
-STR_REFIT_LIVERY_YELLOW_2                        : (노랑)
-STR_REFIT_LIVERY_RED_2                           : (빨강)
-STR_REFIT_LIVERY_LIGHT_BLUE_2                    : (밝은 파랑)
-STR_REFIT_LIVERY_GREEN_2                         : (녹색)
-STR_REFIT_LIVERY_DARK_GREEN_2                    : (어두운 녹색)
-STR_REFIT_LIVERY_BLUE_2                          : (파랑)
-STR_REFIT_LIVERY_CREAM_2                         : (연한 분홍)
-STR_REFIT_LIVERY_MAUVE_2                         : (연한 보라)
-STR_REFIT_LIVERY_PURPLE_2                        : (보라)
-STR_REFIT_LIVERY_ORANGE_2                        : (주황)
-STR_REFIT_LIVERY_BROWN_2                         : (갈색)
-STR_REFIT_LIVERY_GREY_2                          : (회색)
-STR_REFIT_LIVERY_WHITE_2                         : (흰색)
+STR_REFIT_LIVERY_SEOUL_COMPANY_COLOUR            : (서울, 회사 색상)
+STR_REFIT_LIVERY_SEOUL_DARK_BLUE                 : (서울, 어두운 파랑)
+STR_REFIT_LIVERY_SEOUL_YELLOW                    : (서울, 노랑)
+STR_REFIT_LIVERY_SEOUL_RED                       : (서울, 빨강)
+STR_REFIT_LIVERY_SEOUL_GREEN                     : (서울, 녹색)
+STR_REFIT_LIVERY_SEOUL_BLUE                      : (서울, 파랑)
+STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR         : (경기, 회사 색상)
+STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE              : (경기, 어두운 파랑)
+STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN             : (경기, 연한 초록)
+STR_REFIT_LIVERY_GYEONGGI_PINK                   : (경기, 분홍)
+STR_REFIT_LIVERY_GYEONGGI_YELLOW                 : (경기, 노랑)
+STR_REFIT_LIVERY_GYEONGGI_RED                    : (경기, 빨강)
+STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE             : (경기, 밝은 파랑)
+STR_REFIT_LIVERY_GYEONGGI_GREEN                  : (경기, 녹색)
+STR_REFIT_LIVERY_GYEONGGI_BLUE                   : (경기, 파랑)
+# STR_REFIT_LIVERY_COMPANY_COLOUR                  : (회사 색상)
+# STR_REFIT_LIVERY_DARK_BLUE                       : (어두운 파랑)
+# STR_REFIT_LIVERY_PALE_GREEN                      : (연한 초록)
+# STR_REFIT_LIVERY_PINK                            : (분홍)
+# STR_REFIT_LIVERY_YELLOW                          : (노랑)
+# STR_REFIT_LIVERY_RED                             : (빨강)
+# STR_REFIT_LIVERY_LIGHT_BLUE                      : (밝은 파랑)
+# STR_REFIT_LIVERY_GREEN                           : (녹색)
+# STR_REFIT_LIVERY_DARK_GREEN                      : (어두운 녹색)
+# STR_REFIT_LIVERY_BLUE                            : (파랑)
+# STR_REFIT_LIVERY_CREAM                           : (연한 분홍)
+# STR_REFIT_LIVERY_MAUVE                           : (연한 보라)
+# STR_REFIT_LIVERY_PURPLE                          : (보라)
+# STR_REFIT_LIVERY_ORANGE                          : (주황)
+# STR_REFIT_LIVERY_BROWN                           : (갈색)
+# STR_REFIT_LIVERY_GREY                            : (회색)
+# STR_REFIT_LIVERY_WHITE                           : (흰색)
 
-STR_REFIT_LIVERY_COMPANY_COLOUR_2006             : (회사 색상, 이하 2006년형)
-STR_REFIT_LIVERY_COMPANY_COLOUR_2020             : (회사 색상, 이하 2020년형)
+# Refit (legacy)
+STR_REFIT_LEGACY_LOWER                             : (일반)
+STR_REFIT_LEGACY_NORMAL                            : (저상)
 
 # Parameters
-STR_PARAM_SPEED_NAME                             :Speed
-STR_PARAM_SPEED_DESC                             :Speed of bus. The speed of buses will be faster when you set this option as larger value.{}Set this value as 5 if you want to apply the real speed.
-STR_PARAM_FACTOR_COST_NAME                       :Cost
-STR_PARAM_FACTOR_COST_DESC                       :Cost of buses. The higher this value, the more expensive cost to buy buses.
-STR_PARAM_FACTOR_RUNNING_COST_NAME               :Running cost
-STR_PARAM_FACTOR_RUNNING_COST_DESC               :Running cost of buses. The higher this value, the more expensive cost to running buses.
-STR_PARAM_FACTOR_CARGO_CAPACITY_NAME             :Cargo capacity
-STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :Cargo capacity of buses. The higher this value, the more cargo can be delivered.{}It is the same as real if you set this by 'x2'.{}{RED}Warning!{WHITE} This setting will be applied from newly created buses.
-STR_PARAM_FACTOR_LOADING_SPEED_NAME              :Loading speed
-STR_PARAM_FACTOR_LOADING_SPEED_DESC              :Loading speed of buses. The higher this value, the more cargo can load cargos faster.
+STR_PARAM_SPEED_NAME                             :속력
+STR_PARAM_SPEED_DESC                             :버스의 속도를 조절할 수 있습니다. 값이 크면 속도가 더 빨라집니다.{}실제 속력을 사용하시려면 값을 5로 설정하십시오.
+STR_PARAM_FACTOR_COST_NAME                       :가격
+STR_PARAM_FACTOR_COST_DESC                       :버스의 구입 가격을 조절할 수 있습니다. 값이 크면 구입 가격이 더 비싸집니다.
+STR_PARAM_FACTOR_RUNNING_COST_NAME               :유지비
+STR_PARAM_FACTOR_RUNNING_COST_DESC               :버스의 유지비를 조절할 수 있습니다. 값이 크면 유지비가 더 많이 나갑니다.
+STR_PARAM_FACTOR_CARGO_CAPACITY_NAME             :수용량
+STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :버스의 화물 수송량을 조절할 수 있습니다. 값이 크면 더 많은 양의 승객이나 화물을 실을 수 있습니다.{}x2로 설정하면 현실의 수송량과 거의 같아집니다.{}{RED}주의!{WHITE} 이 설정은 새로 만드는 차량부터 적용됩니다.
+STR_PARAM_FACTOR_LOADING_SPEED_NAME              :적재 속도
+STR_PARAM_FACTOR_LOADING_SPEED_DESC              :버스의 화물 적재 속력을 조절할 수 있습니다. 값이 크면 승객이나 화물을 싣는 속력이 빨라집니다.
+STR_PARAM_USE_LEGACY_BUS_NAME                    :예전 버스 사용
+STR_PARAM_USE_LEGACY_BUS_DESC                    :v0.3.6 이전까지 있던 예전 버스를 사용합니다.
 
 # Parameters' value
 STR_PARAM_OPT_FACTOR_BY_0                        :x0

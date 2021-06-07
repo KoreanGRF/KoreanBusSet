@@ -4,7 +4,14 @@
 ------------------------------------------------------------------------------*/
 
 sort(FEAT_ROADVEHS, [
-	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_SEOUL,      // 5010
-	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI,   // 5011
-	ko_bus_HYUNDAI_SUPER_AEROCITY_LF_OTHER,      // 5012
+	ko_bus_HYUNDAI_SUPER_AEROCITY_LF,            // 5010
+	
+	ko_bus_LEGACY_BUS_SEOUL_GREEN,               // 5001
+	ko_bus_LEGACY_BUS_SEOUL_BLUE,                // 5002
+	ko_bus_LEGACY_BUS_SEOUL_RED,                 // 5003
+	ko_bus_LEGACY_BUS_SEOUL_YELLOW,              // 5004
+	ko_bus_LEGACY_BUS_GYEONGGI_GREEN,            // 5005
+	ko_bus_LEGACY_BUS_GYEONGGI_RED,              // 5006
+	ko_bus_LEGACY_BUS_GYEONGGI_BLUE,             // 5007
+	ko_bus_LEGACY_BUS_GYEONGGI_YELLOW,           // 5008
 ]);
