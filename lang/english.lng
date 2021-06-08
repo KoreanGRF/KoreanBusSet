@@ -8,6 +8,7 @@ STR_GRF_URL                                      :https://telk.kr/ottd/newgrf/ko
 
 # Vehicle names
 STR_HYUNDAI_SUPER_AEROCITY_LF_NAME               :Hyundai Super Aerocity Low-floor Bus
+STR_DAEWOO_NEW_BS110_LF_NAME                     :Daewoo Royal Hi-city Low-floor Bus
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                  :Legacy Seoul Bus (Green)
 STR_LEGACY_BUS_SEOUL_RED_NAME                    :Legacy Seoul Bus (Red)
 STR_LEGACY_BUS_SEOUL_YELLOW_NAME                 :Legacy Seoul Bus (Yellow)

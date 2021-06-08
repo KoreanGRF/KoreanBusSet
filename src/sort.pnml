@@ -5,6 +5,7 @@
 
 sort(FEAT_ROADVEHS, [
 	ko_bus_HYUNDAI_SUPER_AEROCITY_LF,            // 5010
+	ko_bus_DAEWOO_NEW_BS110_LF,                  // 5020
 	
 	ko_bus_LEGACY_BUS_SEOUL_GREEN,               // 5001
 	ko_bus_LEGACY_BUS_SEOUL_BLUE,                // 5002
