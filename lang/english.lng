@@ -19,10 +19,8 @@ STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                :Legacy Gyeonggi Bus (Blue)
 
 # Refit (region)
 STR_REFIT_LIVERY_CHEONAN                         : (Cheonan)
-STR_REFIT_LIVERY_BUSAN_2000                      : (Busan, 2000~)
-STR_REFIT_LIVERY_BUSAN_2017                      : (Busan, 2017~)
-STR_REFIT_LIVERY_GWANGJU_1                       : (Gwangju, Yellow)
-STR_REFIT_LIVERY_GWANGJU_2                       : (Gwangju, Red)
+STR_REFIT_LIVERY_BUSAN                           : (Busan)
+STR_REFIT_LIVERY_GWANGJU                         : (Gwangju)
 STR_REFIT_LIVERY_ULSAN                           : (Ulsan)
 STR_REFIT_LIVERY_CHUNGBUK                        : (Chungcheongbuk-do)
 

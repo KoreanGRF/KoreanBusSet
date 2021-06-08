@@ -7,7 +7,7 @@ STR_GRF_DESC                                     :{BLACK}서울 및 경기도 �
 STR_GRF_URL                                      :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
 
 # Vehicle names
-STR_HYUNDAI_SUPER_AEROCITY_LF_NAME               :현대 슈퍼에어로시티 저상 버스
+STR_HYUNDAI_SUPER_AEROCITY_LF_NAME               :현대 수퍼에어로시티 저상 버스
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                  :구 서울 버스 (G, 저상)
 STR_LEGACY_BUS_SEOUL_RED_NAME                    :구 서울 버스 (R, 저상)
 STR_LEGACY_BUS_SEOUL_YELLOW_NAME                 :구 서울 버스 (Y, 저상)
@@ -19,10 +19,8 @@ STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                :구 경기도 G-BUS (청)
 
 # Refit (region)
 STR_REFIT_LIVERY_CHEONAN                         : (천안)
-STR_REFIT_LIVERY_BUSAN_2000                      : (부산, 2000~)
-STR_REFIT_LIVERY_BUSAN_2017                      : (부산, 2017~)
-STR_REFIT_LIVERY_GWANGJU_1                       : (광주, 노랑)
-STR_REFIT_LIVERY_GWANGJU_2                       : (광주, 빨강)
+STR_REFIT_LIVERY_BUSAN                           : (부산)
+STR_REFIT_LIVERY_GWANGJU                         : (광주)
 STR_REFIT_LIVERY_ULSAN                           : (울산)
 STR_REFIT_LIVERY_CHUNGBUK                        : (충청북도)
 
