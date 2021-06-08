@@ -33,7 +33,7 @@ item(FEAT_ROADVEHS, ko_bus_DAEWOO_NEW_BS110_LF, 5020) {
 
         // Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   25;
+        vehicle_life:                   12;
         retire_early:                   0;
         reliability_decay:              0;
 
