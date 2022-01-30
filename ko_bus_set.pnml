@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          37;
+    version :                          44;
     min_compatible_version :           37;
 
 
@@ -21,8 +21,8 @@ grf {
             name: string(STR_PARAM_SPEED_NAME);
             desc: string(STR_PARAM_SPEED_DESC);
             min_value: 1;
-            max_value: 50;
-            def_value: 5;
+            max_value: 100;
+            def_value: 10;
         }
     }
 
@@ -147,7 +147,6 @@ cargotable {
 
 
 // Cost, running cost, capacity, loading speed coefficients
-sw_speed_factor =           1 << max(0, min(coeff_speed, 10));
 sw_cost_factor =            1 << max(0, min(coeff_cost, 10));
 sw_running_cost_factor =    1 << max(0, min(coeff_running_cost, 12));
 sw_cargo_capacity_factor =  1 << (max(1, min(coeff_cargo_capacity, 8)) - 1);

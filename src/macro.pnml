@@ -8,7 +8,7 @@
 // Speed
 #define SPEED(VEHICLEID) \
 switch(FEAT_ROADVEHS, SELF, sw_## VEHICLEID ## _speed, 1) { \
-    return var_ ## VEHICLEID ## _SPEED / 10 * sw_speed_factor; \
+    return var_ ## VEHICLEID ## _SPEED / 10 * coeff_speed; \
 }
 
 // Cost
