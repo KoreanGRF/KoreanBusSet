@@ -72,7 +72,7 @@ STR_PARAM_FACTOR_COST_DESC                       :버스의 구입 가격을 조
 STR_PARAM_FACTOR_RUNNING_COST_NAME               :유지비
 STR_PARAM_FACTOR_RUNNING_COST_DESC               :버스의 유지비를 조절할 수 있습니다. 값이 크면 유지비가 더 많이 나갑니다.
 STR_PARAM_FACTOR_CARGO_CAPACITY_NAME             :수용량
-STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :버스의 화물 수송량을 조절할 수 있습니다. 값이 크면 더 많은 양의 승객이나 화물을 실을 수 있습니다.{}x2로 설정하면 현실의 수송량과 거의 같아집니다.{}{RED}주의!{WHITE} 이 설정은 새로 만드는 차량부터 적용됩니다.
+STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :버스의 화물 수송량을 조절할 수 있습니다. 값이 크면 더 많은 양의 승객이나 화물을 실을 수 있습니다.{}x1로 설정하면 현실의 수송량과 거의 같아집니다.{}{RED}주의!{WHITE} 이 설정은 새로 만드는 차량부터 적용됩니다.
 STR_PARAM_FACTOR_LOADING_SPEED_NAME              :적재 속도
 STR_PARAM_FACTOR_LOADING_SPEED_DESC              :버스의 화물 적재 속력을 조절할 수 있습니다. 값이 크면 승객이나 화물을 싣는 속력이 빨라집니다.
 STR_PARAM_USE_LEGACY_BUS_NAME                    :예전 버스 사용
@@ -85,7 +85,9 @@ STR_PARAM_OPT_FACTOR_BY_1_16                     :x1/16
 STR_PARAM_OPT_FACTOR_BY_1_8                      :x1/8
 STR_PARAM_OPT_FACTOR_BY_1_4                      :x1/4
 STR_PARAM_OPT_FACTOR_BY_1_2                      :x1/2
-STR_PARAM_OPT_FACTOR_BY_1                        :x1 (기본값)
+STR_PARAM_OPT_FACTOR_BY_1_2_DEFAULT              :x1/2 (기본값)
+STR_PARAM_OPT_FACTOR_BY_1_DEFAULT                :x1 (기본값)
+STR_PARAM_OPT_FACTOR_BY_1                        :x1
 STR_PARAM_OPT_FACTOR_BY_2                        :x2
 STR_PARAM_OPT_FACTOR_BY_4                        :x4
 STR_PARAM_OPT_FACTOR_BY_8                        :x8

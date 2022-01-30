@@ -72,7 +72,7 @@ STR_PARAM_FACTOR_COST_DESC                       :Cost of buses. The higher this
 STR_PARAM_FACTOR_RUNNING_COST_NAME               :Running cost
 STR_PARAM_FACTOR_RUNNING_COST_DESC               :Running cost of buses. The higher this value, the more expensive cost to running buses.
 STR_PARAM_FACTOR_CARGO_CAPACITY_NAME             :Cargo capacity
-STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :Cargo capacity of buses. The higher this value, the more cargo can be delivered.{}It is the same as real if you set this by 'x2'.{}{RED}Warning!{WHITE} This setting will be applied from newly created buses.
+STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :Cargo capacity of buses. The higher this value, the more cargo can be delivered.{}It is the same as real if you set this by 'x1'.{}{RED}Warning!{WHITE} This setting will be applied from newly created buses.
 STR_PARAM_FACTOR_LOADING_SPEED_NAME              :Loading speed
 STR_PARAM_FACTOR_LOADING_SPEED_DESC              :Loading speed of buses. The higher this value, the more cargo can load cargos faster.
 STR_PARAM_USE_LEGACY_BUS_NAME                    :Use legacy bus
@@ -85,7 +85,9 @@ STR_PARAM_OPT_FACTOR_BY_1_16                     :x1/16
 STR_PARAM_OPT_FACTOR_BY_1_8                      :x1/8
 STR_PARAM_OPT_FACTOR_BY_1_4                      :x1/4
 STR_PARAM_OPT_FACTOR_BY_1_2                      :x1/2
-STR_PARAM_OPT_FACTOR_BY_1                        :x1 (Default)
+STR_PARAM_OPT_FACTOR_BY_1_2_DEFAULT              :x1/2 (Default)
+STR_PARAM_OPT_FACTOR_BY_1_DEFAULT                :x1 (Default)
+STR_PARAM_OPT_FACTOR_BY_1                        :x1
 STR_PARAM_OPT_FACTOR_BY_2                        :x2
 STR_PARAM_OPT_FACTOR_BY_4                        :x4
 STR_PARAM_OPT_FACTOR_BY_8                        :x8
