@@ -4,15 +4,20 @@
 ------------------------------------------------------------------------------*/
 
 sort(FEAT_ROADVEHS, [
-	ko_bus_HYUNDAI_SUPER_AEROCITY_LF,            // 5010
-	ko_bus_DAEWOO_NEW_BS110_LF,                  // 5020
+	ko_bus_HYUNDAI_SUPER_AEROCITY_LF,                         // 5010
+	ko_bus_HYUNDAI_UNIVERSE_EXPRESS_NOBLE,                    // 5011
+	ko_bus_HYUNDAI_UNIVERSE_SPACE_LUXURY,                     // 5012
+	ko_bus_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR,    // 5013
+	ko_bus_HYUNDAI_UNIVERSE_2019_FACELIFT,                    // 5014
+	ko_bus_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR,   // 5015
+	ko_bus_DAEWOO_NEW_BS110_LF,                               // 5020
 	
-	ko_bus_LEGACY_BUS_SEOUL_GREEN,               // 5001
-	ko_bus_LEGACY_BUS_SEOUL_BLUE,                // 5002
-	ko_bus_LEGACY_BUS_SEOUL_RED,                 // 5003
-	ko_bus_LEGACY_BUS_SEOUL_YELLOW,              // 5004
-	ko_bus_LEGACY_BUS_GYEONGGI_GREEN,            // 5005
-	ko_bus_LEGACY_BUS_GYEONGGI_RED,              // 5006
-	ko_bus_LEGACY_BUS_GYEONGGI_BLUE,             // 5007
-	ko_bus_LEGACY_BUS_GYEONGGI_YELLOW,           // 5008
+	ko_bus_LEGACY_BUS_SEOUL_GREEN,                            // 5001
+	ko_bus_LEGACY_BUS_SEOUL_BLUE,                             // 5002
+	ko_bus_LEGACY_BUS_SEOUL_RED,                              // 5003
+	ko_bus_LEGACY_BUS_SEOUL_YELLOW,                           // 5004
+	ko_bus_LEGACY_BUS_GYEONGGI_GREEN,                         // 5005
+	ko_bus_LEGACY_BUS_GYEONGGI_RED,                           // 5006
+	ko_bus_LEGACY_BUS_GYEONGGI_BLUE,                          // 5007
+	ko_bus_LEGACY_BUS_GYEONGGI_YELLOW,                        // 5008
 ]);

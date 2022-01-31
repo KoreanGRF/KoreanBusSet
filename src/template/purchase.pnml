@@ -14,3 +14,6 @@ template tmpl_purchase_detail(x, y, w, h, offX, offY) {
     [   x,    y,    w,    h, offX, offY]
     [   0,    0,    1,    1,    0,    0]
 }
+template tmpl_purchase_common(x, y) {
+    tmpl_purchase_detail(x, y, 31, 13, -14, -6)
+}

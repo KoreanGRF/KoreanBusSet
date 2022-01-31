@@ -2,101 +2,108 @@
 
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                            :Korean Bus Set v{VERSION}
-STR_GRF_DESC                                     :{BLACK}Korean buses including Seoul and Gyeonggi-do buses.{}(Updated: {RECENT_UPDATED}){}{}{SILVER}+ Author: TELK{}{BLACK}  - {AUTHOR_EMAIL}{}  - {AUTHOR_WEBSITE}
-STR_GRF_URL                                      :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
+STR_GRF_NAME_WITH_VER                                     :Korean Bus Set v{VERSION}
+STR_GRF_DESC                                              :{BLACK}Korean buses including Seoul and Gyeonggi-do buses.{}(Updated: {RECENT_UPDATED}){}{}{SILVER}+ Author: TELK{}{BLACK}  - {AUTHOR_EMAIL}{}  - {AUTHOR_WEBSITE}
+STR_GRF_URL                                               :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
 
 # Vehicle names
-STR_HYUNDAI_SUPER_AEROCITY_LF_NAME               :Hyundai Super Aerocity Low-floor Bus
-STR_DAEWOO_NEW_BS110_LF_NAME                     :Daewoo NEW BS110 Low-floor Bus
-STR_LEGACY_BUS_SEOUL_GREEN_NAME                  :Legacy Seoul Bus (Green)
-STR_LEGACY_BUS_SEOUL_RED_NAME                    :Legacy Seoul Bus (Red)
-STR_LEGACY_BUS_SEOUL_YELLOW_NAME                 :Legacy Seoul Bus (Yellow)
-STR_LEGACY_BUS_SEOUL_BLUE_NAME                   :Legacy Seoul Bus (Blue)
-STR_LEGACY_BUS_GYEONGGI_GREEN_NAME               :Legacy Gyeonggi Bus (Green)
-STR_LEGACY_BUS_GYEONGGI_RED_NAME                 :Legacy Gyeonggi Bus (Red)
-STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME              :Legacy Gyeonggi Bus (Yellow)
-STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                :Legacy Gyeonggi Bus (Blue)
+STR_HYUNDAI_SUPER_AEROCITY_LF_NAME                        :Hyundai Super Aerocity Low-floor Bus
+STR_HYUNDAI_UNIVERSE_EXPRESS_NOBLE_NAME                   :Hyundai New Premium Universe Express Noble
+STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_NAME                    :Hyundai Universe Space Luxury
+STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_NAME   :Hyundai Universe Space Luxury (with middle door)
+STR_HYUNDAI_UNIVERSE_2019_FACELIFT_NAME                   :Hyundai Universe 2019 Face-lift
+STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :Hyundai Universe 2019 Face-lift (with middle door)
+STR_DAEWOO_NEW_BS110_LF_NAME                              :Daewoo NEW BS110 Low-floor Bus
+STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :Legacy Seoul Bus (Green)
+STR_LEGACY_BUS_SEOUL_RED_NAME                             :Legacy Seoul Bus (Red)
+STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :Legacy Seoul Bus (Yellow)
+STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :Legacy Seoul Bus (Blue)
+STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :Legacy Gyeonggi Bus (Green)
+STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :Legacy Gyeonggi Bus (Red)
+STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :Legacy Gyeonggi Bus (Yellow)
+STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :Legacy Gyeonggi Bus (Blue)
 
 # Refit (region)
-STR_REFIT_LIVERY_CHEONAN                         : (Cheonan)
-STR_REFIT_LIVERY_BUSAN                           : (Busan)
-STR_REFIT_LIVERY_GWANGJU                         : (Gwangju)
-STR_REFIT_LIVERY_ULSAN                           : (Ulsan)
-STR_REFIT_LIVERY_CHUNGBUK                        : (Chungcheongbuk-do)
+STR_REFIT_LIVERY_CHEONAN                                  : (Cheonan)
+STR_REFIT_LIVERY_BUSAN                                    : (Busan)
+STR_REFIT_LIVERY_GWANGJU                                  : (Gwangju)
+STR_REFIT_LIVERY_ULSAN                                    : (Ulsan)
+STR_REFIT_LIVERY_CHUNGBUK                                 : (Chungcheongbuk-do)
 
 # Refit (recolour)
-STR_REFIT_LIVERY_MANUFACTURE                     : (Manufacture)
-STR_REFIT_LIVERY_SEOUL_COMPANY_COLOUR            : (Seoul, Company colour)
-STR_REFIT_LIVERY_SEOUL_DARK_BLUE                 : (Seoul, Dark blue)
-STR_REFIT_LIVERY_SEOUL_YELLOW                    : (Seoul, Yellow)
-STR_REFIT_LIVERY_SEOUL_RED                       : (Seoul, Red)
-STR_REFIT_LIVERY_SEOUL_GREEN                     : (Seoul, Green)
-STR_REFIT_LIVERY_SEOUL_BLUE                      : (Seoul, Blue)
-STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR         : (Gyeonggi, Company colour)
-STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE              : (Gyeonggi, Dark blue)
-STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN             : (Gyeonggi, Pale green)
-STR_REFIT_LIVERY_GYEONGGI_PINK                   : (Gyeonggi, Pink)
-STR_REFIT_LIVERY_GYEONGGI_YELLOW                 : (Gyeonggi, Yellow)
-STR_REFIT_LIVERY_GYEONGGI_RED                    : (Gyeonggi, Red)
-STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE             : (Gyeonggi, Light blue)
-STR_REFIT_LIVERY_GYEONGGI_GREEN                  : (Gyeonggi, Green)
-STR_REFIT_LIVERY_GYEONGGI_BLUE                   : (Gyeonggi, Blue)
-# STR_REFIT_LIVERY_COMPANY_COLOUR                  : (Company colour)
-# STR_REFIT_LIVERY_DARK_BLUE                       : (Dark Blue)
-# STR_REFIT_LIVERY_PALE_GREEN                      : (Pale Green)
-# STR_REFIT_LIVERY_PINK                            : (Pink)
-# STR_REFIT_LIVERY_YELLOW                          : (Yellow)
-# STR_REFIT_LIVERY_RED                             : (Red)
-# STR_REFIT_LIVERY_LIGHT_BLUE                      : (Light Blue)
-# STR_REFIT_LIVERY_GREEN                           : (Green)
-# STR_REFIT_LIVERY_DARK_GREEN                      : (Dark Green)
-# STR_REFIT_LIVERY_BLUE                            : (Blue)
-# STR_REFIT_LIVERY_CREAM                           : (Cream)
-# STR_REFIT_LIVERY_MAUVE                           : (Mauve)
-# STR_REFIT_LIVERY_PURPLE                          : (Purple)
-# STR_REFIT_LIVERY_ORANGE                          : (Orange)
-# STR_REFIT_LIVERY_BROWN                           : (Brown)
-# STR_REFIT_LIVERY_GREY                            : (Grey)
-# STR_REFIT_LIVERY_WHITE                           : (White)
+STR_REFIT_LIVERY_MANUFACTURE                              : (Manufacture)
+STR_REFIT_LIVERY_SEOUL_COMPANY_COLOUR                     : (Seoul, Company colour)
+STR_REFIT_LIVERY_SEOUL_DARK_BLUE                          : (Seoul, Dark blue)
+STR_REFIT_LIVERY_SEOUL_YELLOW                             : (Seoul, Yellow)
+STR_REFIT_LIVERY_SEOUL_RED                                : (Seoul, Red)
+STR_REFIT_LIVERY_SEOUL_GREEN                              : (Seoul, Green)
+STR_REFIT_LIVERY_SEOUL_BLUE                               : (Seoul, Blue)
+STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR                  : (Gyeonggi, Company colour)
+STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE                       : (Gyeonggi, Dark blue)
+STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN                      : (Gyeonggi, Pale green)
+STR_REFIT_LIVERY_GYEONGGI_PINK                            : (Gyeonggi, Pink)
+STR_REFIT_LIVERY_GYEONGGI_YELLOW                          : (Gyeonggi, Yellow)
+STR_REFIT_LIVERY_GYEONGGI_RED                             : (Gyeonggi, Red)
+STR_REFIT_LIVERY_GYEONGGI_RED_1                           : (Gyeonggi, Red 1)
+STR_REFIT_LIVERY_GYEONGGI_RED_2                           : (Gyeonggi, Red 2)
+STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE                      : (Gyeonggi, Light blue)
+STR_REFIT_LIVERY_GYEONGGI_GREEN                           : (Gyeonggi, Green)
+STR_REFIT_LIVERY_GYEONGGI_BLUE                            : (Gyeonggi, Blue)
+STR_REFIT_LIVERY_GYEONGGI_BLUE_1                          : (Gyeonggi, Blue 1)
+STR_REFIT_LIVERY_GYEONGGI_BLUE_2                          : (Gyeonggi, Blue 2)
+
+# Refit
+STR_REFIT_LIVERY_PREMIUM_GOLD                             : (Premium Gold)
+STR_REFIT_LIVERY_PREMIUM_GOLD_1                           : (Premium Gold 1)
+STR_REFIT_LIVERY_PREMIUM_GOLD_2                           : (Premium Gold 2)
+STR_REFIT_LIVERY_GYEONGGI_RAPID                           : (Gyeonggi, Rapid)
+STR_REFIT_LIVERY_M_BUS                                    : (M-Bus)
+
+# Refit (companies/organisations based on real world)
+STR_REFIT_LIVERY_KD                                       : (KD Group)
+STR_REFIT_LIVERY_JOONGANG                                 : (Joonang Express)
+STR_REFIT_LIVERY_KUMHO                                    : (Kumho Buslines)
+STR_REFIT_LIVERY_ROKAF                                    : (Republic of Korea Air Force)
+STR_REFIT_LIVERY_POLICE                                   : (Police)
+STR_REFIT_LIVERY_MINISTRY_OF_JUSTICE                      : (Ministry of Justice)
 
 # Refit (legacy)
-STR_REFIT_LEGACY_LOWER                             : (Normal)
-STR_REFIT_LEGACY_NORMAL                            : (Low floor)
+STR_REFIT_LEGACY_LOWER                                    : (Normal)
+STR_REFIT_LEGACY_NORMAL                                   : (Low floor)
 
 # Parameters
-STR_PARAM_SPEED_NAME                             :Speed
-STR_PARAM_SPEED_DESC                             :Speed of bus. The speed of buses will be faster when you set this option as larger value.{}Set this value as 5 if you want to apply the real speed.
-STR_PARAM_FACTOR_COST_NAME                       :Cost
-STR_PARAM_FACTOR_COST_DESC                       :Cost of buses. The higher this value, the more expensive cost to buy buses.
-STR_PARAM_FACTOR_RUNNING_COST_NAME               :Running cost
-STR_PARAM_FACTOR_RUNNING_COST_DESC               :Running cost of buses. The higher this value, the more expensive cost to running buses.
-STR_PARAM_FACTOR_CARGO_CAPACITY_NAME             :Cargo capacity
-STR_PARAM_FACTOR_CARGO_CAPACITY_DESC             :Cargo capacity of buses. The higher this value, the more cargo can be delivered.{}It is the same as real if you set this by 'x1'.{}{RED}Warning!{WHITE} This setting will be applied from newly created buses.
-STR_PARAM_FACTOR_LOADING_SPEED_NAME              :Loading speed
-STR_PARAM_FACTOR_LOADING_SPEED_DESC              :Loading speed of buses. The higher this value, the more cargo can load cargos faster.
-STR_PARAM_USE_LEGACY_BUS_NAME                    :Use legacy bus
-STR_PARAM_USE_LEGACY_BUS_DESC                    :Use legacy buses used until v0.3.6.
+STR_PARAM_SPEED_NAME                                      :Speed
+STR_PARAM_SPEED_DESC                                      :Speed of bus. The speed of buses will be faster when you set this option as larger value.{}Set this value as 5 if you want to apply the real speed.
+STR_PARAM_FACTOR_COST_NAME                                :Cost
+STR_PARAM_FACTOR_COST_DESC                                :Cost of buses. The higher this value, the more expensive cost to buy buses.
+STR_PARAM_FACTOR_RUNNING_COST_NAME                        :Running cost
+STR_PARAM_FACTOR_RUNNING_COST_DESC                        :Running cost of buses. The higher this value, the more expensive cost to running buses.
+STR_PARAM_FACTOR_CARGO_CAPACITY_NAME                      :Cargo capacity
+STR_PARAM_FACTOR_CARGO_CAPACITY_DESC                      :Cargo capacity of buses. The higher this value, the more cargo can be delivered.{}It is the same as real if you set this by 'x1'.{}{RED}Warning!{WHITE} This setting will be applied from newly created buses.
+STR_PARAM_FACTOR_LOADING_SPEED_NAME                       :Loading speed
+STR_PARAM_FACTOR_LOADING_SPEED_DESC                       :Loading speed of buses. The higher this value, the more cargo can load cargos faster.
+STR_PARAM_USE_LEGACY_BUS_NAME                             :Use legacy bus
+STR_PARAM_USE_LEGACY_BUS_DESC                             :Use legacy buses used until v0.3.6.
 
 # Parameters' value
-STR_PARAM_OPT_FACTOR_BY_0                        :x0
-STR_PARAM_OPT_FACTOR_BY_1_32                     :x1/32
-STR_PARAM_OPT_FACTOR_BY_1_16                     :x1/16
-STR_PARAM_OPT_FACTOR_BY_1_8                      :x1/8
-STR_PARAM_OPT_FACTOR_BY_1_4                      :x1/4
-STR_PARAM_OPT_FACTOR_BY_1_2                      :x1/2
-STR_PARAM_OPT_FACTOR_BY_1_2_DEFAULT              :x1/2 (Default)
-STR_PARAM_OPT_FACTOR_BY_1_DEFAULT                :x1 (Default)
-STR_PARAM_OPT_FACTOR_BY_1                        :x1
-STR_PARAM_OPT_FACTOR_BY_2                        :x2
-STR_PARAM_OPT_FACTOR_BY_4                        :x4
-STR_PARAM_OPT_FACTOR_BY_8                        :x8
-STR_PARAM_OPT_FACTOR_BY_16                       :x16
-STR_PARAM_OPT_FACTOR_BY_32                       :x32
-STR_PARAM_OPT_FACTOR_BY_64                       :x64
-STR_PARAM_OPT_FACTOR_BY_128                      :x128
-STR_PARAM_OPT_FACTOR_BY_256                      :x256
+STR_PARAM_OPT_FACTOR_BY_0                                 :x0
+STR_PARAM_OPT_FACTOR_BY_1_32                              :x1/32
+STR_PARAM_OPT_FACTOR_BY_1_16                              :x1/16
+STR_PARAM_OPT_FACTOR_BY_1_8                               :x1/8
+STR_PARAM_OPT_FACTOR_BY_1_4                               :x1/4
+STR_PARAM_OPT_FACTOR_BY_1_2                               :x1/2
+STR_PARAM_OPT_FACTOR_BY_1_2_DEFAULT                       :x1/2 (Default)
+STR_PARAM_OPT_FACTOR_BY_1_DEFAULT                         :x1 (Default)
+STR_PARAM_OPT_FACTOR_BY_1                                 :x1
+STR_PARAM_OPT_FACTOR_BY_2                                 :x2
+STR_PARAM_OPT_FACTOR_BY_4                                 :x4
+STR_PARAM_OPT_FACTOR_BY_8                                 :x8
+STR_PARAM_OPT_FACTOR_BY_16                                :x16
+STR_PARAM_OPT_FACTOR_BY_32                                :x32
+STR_PARAM_OPT_FACTOR_BY_64                                :x64
+STR_PARAM_OPT_FACTOR_BY_128                               :x128
+STR_PARAM_OPT_FACTOR_BY_256                               :x256
 
 # Errors
-STR_ERROR_REQUIRES_OPENTTD                       :this newgrf requires OpenTTD {STRING}!
-STR_ERROR_VERSION                                :not suitable version!
+STR_ERROR_REQUIRES_OPENTTD                                :this newgrf requires OpenTTD {STRING}!
+STR_ERROR_VERSION                                         :not suitable version!
