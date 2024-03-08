@@ -6,11 +6,11 @@
 
 // GRF definition
 grf {
-    grfid :                            "TK\02\02";
-    name :                             string(STR_GRF_NAME_WITH_VER);
-    desc :                             string(STR_GRF_DESC);
-    url :                              string(STR_GRF_URL);
-    version :                          45;
+    grfid:                             "TK\02\02";
+    name:                              string(STR_GRF_NAME_WITH_VER);
+    desc:                              string(STR_GRF_DESC);
+    url:                               string(STR_GRF_URL);
+    version:                           601;
     min_compatible_version :           37;
 
 

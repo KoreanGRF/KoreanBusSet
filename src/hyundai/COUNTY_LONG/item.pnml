@@ -50,7 +50,7 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_COUNTY_LONG, 5030) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_HYUNDAI_COUNTY_LONG_engine;
