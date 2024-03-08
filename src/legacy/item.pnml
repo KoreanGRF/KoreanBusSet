@@ -50,7 +50,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_GREEN, 5001) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_SEOUL_GREEN_engine;
@@ -97,7 +97,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_BLUE, 5002) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_SEOUL_BLUE_engine;
@@ -144,7 +144,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_RED, 5003) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_SEOUL_RED_engine;
@@ -191,7 +191,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_SEOUL_YELLOW, 5004) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_SEOUL_YELLOW_engine;
@@ -238,7 +238,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_GREEN, 5005) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_GYEONGGI_GREEN_engine;
@@ -287,7 +287,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_RED, 5006) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_GYEONGGI_RED_engine;
@@ -336,7 +336,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_YELLOW, 5007) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_GYEONGGI_YELLOW_engine;
@@ -385,7 +385,7 @@ item(FEAT_ROADVEHS, ko_bus_LEGACY_BUS_GYEONGGI_BLUE, 5008) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_LEGACY_BUS_GYEONGGI_BLUE_engine;

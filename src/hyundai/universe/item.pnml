@@ -50,7 +50,7 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_UNIVERSE_EXPRESS_NOBLE, 5011) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_HYUNDAI_UNIVERSE_EXPRESS_NOBLE_engine;
@@ -99,7 +99,7 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_UNIVERSE_SPACE_LUXURY, 5012) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_HYUNDAI_UNIVERSE_SPACE_LUXURY_engine;
@@ -148,7 +148,7 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR, 5013)
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_engine;
@@ -196,7 +196,7 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_UNIVERSE_2019_FACELIFT, 5014) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_HYUNDAI_UNIVERSE_2019_FACELIFT_engine;
@@ -244,7 +244,7 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR, 5015
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
         default:                        sw_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_engine;
