@@ -1,0 +1,32 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Seoul
+spriteset(set_HYUNDAI_COUNTY_XLONG_SEOUL_purchase, "./src/hyundai/COUNTY_XLONG/COUNTY_XLONG.png") {
+    tmpl_purchase_detail(0, 0, 31, 13, -14, -6)
+}
+spriteset(set_HYUNDAI_COUNTY_XLONG_SEOUL, "./src/hyundai/COUNTY_XLONG/COUNTY_XLONG.png") {
+    tmpl_HYUNDAI_COUNTY(60, 0)
+}
+
+// Gyeonggi
+spriteset(set_HYUNDAI_COUNTY_XLONG_GYEONGGI_purchase, "./src/hyundai/COUNTY_XLONG/COUNTY_XLONG.png") {
+    tmpl_purchase_detail(0, 30, 31, 13, -14, -6)
+}
+spriteset(set_HYUNDAI_COUNTY_XLONG_GYEONGGI, "./src/hyundai/COUNTY_XLONG/COUNTY_XLONG.png") {
+    tmpl_HYUNDAI_COUNTY(60, 30)
+}
+
+// Erud Beige
+spriteset(set_HYUNDAI_COUNTY_XLONG_ERUDBEIGE_purchase, "./src/hyundai/COUNTY_XLONG/COUNTY_XLONG.png") {
+    tmpl_purchase_detail(0, 90, 31, 13, -14, -6)
+}
+spriteset(set_HYUNDAI_COUNTY_XLONG_ERUDBEIGE, "./src/hyundai/COUNTY_XLONG/COUNTY_XLONG.png") {
+    tmpl_HYUNDAI_COUNTY(60, 60)
+}
+
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_COUNTY_XLONG_purchase, 1) {
+    set_HYUNDAI_COUNTY_XLONG_SEOUL_purchase;
+}

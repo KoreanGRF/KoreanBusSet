@@ -22,6 +22,8 @@ STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :Legacy Gyeonggi Bus (
 STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :Legacy Gyeonggi Bus (Red)
 STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :Legacy Gyeonggi Bus (Yellow)
 STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :Legacy Gyeonggi Bus (Blue)
+STR_HYUNDAI_COUNTY_LONG_NAME                              :Hyundai County (Long axis)
+STR_HYUNDAI_COUNTY_XLONG_NAME                             :Hyundai County (Super-long axis)
 
 # Refit (region)
 STR_REFIT_LIVERY_CHEONAN                                  : (Cheonan)
@@ -66,6 +68,9 @@ STR_REFIT_LIVERY_KUMHO                                    : (Kumho Buslines)
 STR_REFIT_LIVERY_ROKAF                                    : (Republic of Korea Air Force)
 STR_REFIT_LIVERY_POLICE                                   : (Police)
 STR_REFIT_LIVERY_MINISTRY_OF_JUSTICE                      : (Ministry of Justice)
+
+# Refit (Hyundai County)
+STR_REFIT_LIVERY_HYUNDAI_COUNTY_ECRUBEIGE                 : (Ecru Beige)
 
 # Refit (legacy)
 STR_REFIT_LEGACY_LOWER                                    : (Normal)

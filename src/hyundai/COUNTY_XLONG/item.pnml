@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+/**
+ * Hyundai County
+ */
+SPEED(HYUNDAI_COUNTY_XLONG)
+COST(HYUNDAI_COUNTY_XLONG)
+RUNNING(HYUNDAI_COUNTY_XLONG)
+CAPACITY(HYUNDAI_COUNTY_XLONG)
+LOADING(HYUNDAI_COUNTY_XLONG)
+
+// Graphic
+#include "graphic.pnml"
+
+// Switch
+#include "switch.pnml"
+
+// Hyundai low floor
+item(FEAT_ROADVEHS, ko_bus_HYUNDAI_COUNTY_XLONG, 5031) {
+    property {
+        // Common properties
+        name:                           string(STR_HYUNDAI_COUNTY_XLONG_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_HYUNDAI_COUNTY_XLONG_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          125 kW;
+        weight:                         5 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   15;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 15;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_BUS_START_PULL_AWAY;
+    }
+    graphics {
+        default:                        sw_HYUNDAI_COUNTY_XLONG_engine;
+        purchase:                       sw_HYUNDAI_COUNTY_XLONG_purchase;
+
+        speed:                          sw_HYUNDAI_COUNTY_XLONG_speed;
+        cost_factor:                    sw_HYUNDAI_COUNTY_XLONG_cost;
+        running_cost_factor:            sw_HYUNDAI_COUNTY_XLONG_runningcost;
+        cargo_capacity:                 sw_HYUNDAI_COUNTY_XLONG_capacity;
+        loading_speed:                  sw_HYUNDAI_COUNTY_XLONG_loadingspeed;
+
+        cargo_subtype_text:             sw_HYUNDAI_COUNTY_XLONG_cargo_subtype_text;
+
+        // Company colours remapping
+        colour_mapping:                 sw_HYUNDAI_COUNTY_XLONG_recolour;
+    }
+}

@@ -23,4 +23,6 @@ template tmpl_HYUNDAI_UNIVERSE(x, y) {
     [x+170,   y,   31,  13,  -14,   -8]
     [x+210,   y,   24,  19,   -6,   -9]
 }
-
+template tmpl_HYUNDAI_COUNTY(x, y) {
+    tmpl_HYUNDAI_UNIVERSE(x, y)
+}

@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Cargo subtype
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_COUNTY_XLONG_cargo_subtype_text, cargo_subtype) {
+    // 1:  // DEFAULT
+    2:  return string(STR_REFIT_LIVERY_SEOUL_DARK_BLUE);
+    3:  return string(STR_REFIT_LIVERY_SEOUL_YELLOW);
+    4:  return string(STR_REFIT_LIVERY_SEOUL_RED);
+    5:  return string(STR_REFIT_LIVERY_SEOUL_GREEN);
+    6:  return string(STR_REFIT_LIVERY_SEOUL_BLUE);
+    // Gyeonggi
+    10: return string(STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR);
+    11: return string(STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE);
+    12: return string(STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN);
+    13: return string(STR_REFIT_LIVERY_GYEONGGI_PINK);
+    14: return string(STR_REFIT_LIVERY_GYEONGGI_YELLOW);
+    15: return string(STR_REFIT_LIVERY_GYEONGGI_RED);
+    16: return string(STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE);
+    17: return string(STR_REFIT_LIVERY_GYEONGGI_GREEN);
+    18: return string(STR_REFIT_LIVERY_GYEONGGI_BLUE);
+    // Other
+    20:  return string(STR_REFIT_LIVERY_HYUNDAI_COUNTY_ECRUBEIGE);
+    return string(STR_REFIT_LIVERY_SEOUL_COMPANY_COLOUR);
+}
+
+// Colour remapping
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_COUNTY_XLONG_recolour, cargo_subtype) {
+    // 1:  // DEFAULT
+    // Seoul
+    2:  palette_1cc(COLOUR_DARK_BLUE);
+    3:  palette_1cc(COLOUR_YELLOW);
+    4:  palette_1cc(COLOUR_RED);
+    5:  palette_1cc(COLOUR_GREEN);
+    6:  palette_1cc(COLOUR_BLUE);
+    // Gyeonggi
+    // 10:  // GYEONGGI_COMPANY_COLOUR
+    11: palette_1cc(COLOUR_DARK_BLUE);
+    12: palette_1cc(COLOUR_PALE_GREEN);
+    13: palette_1cc(COLOUR_PINK);
+    14: palette_1cc(COLOUR_YELLOW);
+    15: palette_1cc(COLOUR_RED);
+    16: palette_1cc(COLOUR_LIGHT_BLUE);
+    17: palette_1cc(COLOUR_GREEN);
+    18: palette_1cc(COLOUR_BLUE);
+    return CB_RESULT_COLOUR_MAPPING_ADD_CC;
+}
+
+// Engine
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_COUNTY_XLONG_engine, cargo_subtype) {
+    1..9:   set_HYUNDAI_COUNTY_XLONG_SEOUL;
+    10..19: set_HYUNDAI_COUNTY_XLONG_GYEONGGI;
+    // Other
+    20: set_HYUNDAI_COUNTY_XLONG_ERUDBEIGE;
+    return set_HYUNDAI_COUNTY_XLONG_SEOUL;
+}
+
