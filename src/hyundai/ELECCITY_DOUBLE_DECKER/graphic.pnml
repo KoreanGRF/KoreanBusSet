@@ -1,0 +1,45 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Template
+template tmpl_HYUNDAI_ELECCITY_DOUBLE_DECKER(x, y) {   //=> Consider as a standard template for Double Decker?
+    [x+0,     y,    7,  27,   -4,  -15]
+    [x+20,    y,   25,  24,  -16,  -12]
+    [x+50,    y,   31,  18,  -14,  -12]
+    [x+90,    y,   25,  24,  -12,  -14]
+    [x+120,   y,    7,  27,   -4,  -15]
+    [x+140,   y,   25,  24,  -14,  -14]
+    [x+170,   y,   31,  18,  -14,  -12]
+    [x+210,   y,   24,  24,   -2,  -10]
+}
+
+// Gyeonggi
+spriteset(set_HYUNDAI_ELECCITY_DOUBLE_DECKER_GYEONGGI_purchase, "./src/hyundai/ELECCITY_DOUBLE_DECKER/ELECCITY_DOUBLE_DECKER.png") {
+    tmpl_purchase_detail(0, 0, 31, 18, -14, -12)
+}
+spriteset(set_HYUNDAI_ELECCITY_DOUBLE_DECKER_GYEONGGI, "./src/hyundai/ELECCITY_DOUBLE_DECKER/ELECCITY_DOUBLE_DECKER.png") {
+    tmpl_HYUNDAI_ELECCITY_DOUBLE_DECKER(60, 0)
+}
+
+// M-Bus
+spriteset(set_HYUNDAI_ELECCITY_DOUBLE_DECKER_M_BUS_purchase, "./src/hyundai/ELECCITY_DOUBLE_DECKER/ELECCITY_DOUBLE_DECKER.png") {
+    tmpl_purchase_detail(0, 30, 31, 18, -14, -12)
+}
+spriteset(set_HYUNDAI_ELECCITY_DOUBLE_DECKER_M_BUS, "./src/hyundai/ELECCITY_DOUBLE_DECKER/ELECCITY_DOUBLE_DECKER.png") {
+    tmpl_HYUNDAI_ELECCITY_DOUBLE_DECKER(60, 30)
+}
+
+// Company colour
+spriteset(set_HYUNDAI_ELECCITY_DOUBLE_DECKER_COMPANY_COLOUR_purchase, "./src/hyundai/ELECCITY_DOUBLE_DECKER/ELECCITY_DOUBLE_DECKER.png") {
+    tmpl_purchase_detail(0, 60, 31, 18, -14, -12)
+}
+spriteset(set_HYUNDAI_ELECCITY_DOUBLE_DECKER_COMPANY_COLOUR, "./src/hyundai/ELECCITY_DOUBLE_DECKER/ELECCITY_DOUBLE_DECKER.png") {
+    tmpl_HYUNDAI_ELECCITY_DOUBLE_DECKER(60, 60)
+}
+
+// Default Purchase
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_DOUBLE_DECKER_purchase, 1) {
+    set_HYUNDAI_ELECCITY_DOUBLE_DECKER_COMPANY_COLOUR_purchase;
+}

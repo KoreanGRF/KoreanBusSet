@@ -14,7 +14,8 @@ STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_NAME   :현대 유니버스 �
 STR_HYUNDAI_UNIVERSE_2019_FACELIFT_NAME                   :현대 유니버스 2019 페이스리프트 (전문형)
 STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :현대 유니버스 2019 페이스리프트 (전중문형)
 STR_HYUNDAI_ELECCITY_NAME                                 :현대 일렉시티
-STR_HYUNDAI_ELECCITY_ARTICULATED_NAME                     :현대 일렉시티 굴절
+STR_HYUNDAI_ELECCITY_ARTICULATED_NAME                     :현대 일렉시티 (굴절)
+STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :현대 일렉시티 (2층)
 STR_DAEWOO_NEW_BS110_LF_NAME                              :대우 NEW BS110 저상
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :구 서울 버스 (G, 저상)
 STR_LEGACY_BUS_SEOUL_RED_NAME                             :구 서울 버스 (R, 저상)
@@ -29,6 +30,7 @@ STR_HYUNDAI_COUNTY_XLONG_NAME                             :현대 카운티 (초
 
 # Refit (region)
 STR_REFIT_LIVERY_SEOUL_YELLOW_SHUTTLE                     : (서울, 순환)
+STR_REFIT_LIVERY_GYEONGGI                                 : (경기도)
 STR_REFIT_LIVERY_CHEONAN                                  : (천안)
 STR_REFIT_LIVERY_SEJONG_BRT                               : (세종, BRT)
 STR_REFIT_LIVERY_BUSAN                                    : (부산)
@@ -81,7 +83,7 @@ STR_REFIT_LIVERY_PREMIUM_GOLD                             : (프리미엄 골드
 STR_REFIT_LIVERY_PREMIUM_GOLD_1                           : (프리미엄 골드 1)
 STR_REFIT_LIVERY_PREMIUM_GOLD_2                           : (프리미엄 골드 2)
 STR_REFIT_LIVERY_GYEONGGI_RAPID                           : (경기, 급행)
-STR_REFIT_LIVERY_M_BUS                                    : (광역급행버스)
+STR_REFIT_LIVERY_M_BUS                                    : (광역급행 M버스)
 
 # Refit (companies/organisations based on real world)
 STR_REFIT_LIVERY_KD                                       : (KD 운송그룹)
