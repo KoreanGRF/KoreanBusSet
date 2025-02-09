@@ -1,0 +1,42 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Manufacture
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_MANUFACTURE_purchase, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_purchase_detail(0, 0, 43, 13, -26, -6)
+}
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_MANUFACTURE_H, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_standard(60, 0)
+}
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_MANUFACTURE_T, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_standard(60, 30)
+}
+
+// Sejong BRT
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_SEJONG_BRT_purchase, "./src/hyundai/ELECCITY/ELECCITY_ARTICULATED.png") {
+    tmpl_purchase_detail(0, 60, 43, 13, -26, -6)
+}
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_SEJONG_BRT_H, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_standard(60, 60)
+}
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_SEJONG_BRT_T, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_standard(60, 90)
+}
+
+// Company colour
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_COMPANY_COLOUR_purchase, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_purchase_detail(0, 120, 43, 13, -26, -6)
+}
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_COMPANY_COLOUR_H, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_standard(60, 120)
+}
+spriteset(set_HYUNDAI_ELECCITY_ARTICULATED_COMPANY_COLOUR_T, "./src/hyundai/ELECCITY_ARTICULATED/ELECCITY_ARTICULATED.png") {
+    tmpl_standard(60, 150)
+}
+
+// Default Purchase
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_ARTICULATED_purchase, 1) {
+    set_HYUNDAI_ELECCITY_ARTICULATED_MANUFACTURE_purchase;
+}

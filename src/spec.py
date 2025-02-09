@@ -11,7 +11,8 @@ vehicleList['HYUNDAI_SUPER_AEROCITY_LF']            = 100,    10,     10,       
 vehicleList['HYUNDAI_UNIVERSE']                     = 150,    10,     10,           48,      10,           517,    15,     (2006, 1, 1)
 vehicleList['HYUNDAI_COUNTY_LONG']                  = 104,    10,     10,           21,      5,            125,     5,     (1998, 1, 1)
 vehicleList['HYUNDAI_COUNTY_XLONG']                 = 104,    10,     10,           23,      5,            125,     5,     (1998, 1, 1)
-vehicleList['HYUNDAI_ELECCITY']                     = 100,    10,     10,           49,      5,            240,    12,     (2007, 1, 1)
+vehicleList['HYUNDAI_ELECCITY']                     = 100,    10,     10,           49,      5,            240,    12,     (2017, 1, 1)
+vehicleList['HYUNDAI_ELECCITY_ARTICULATED']         =  80,    20,     20,           84,      5,            240,    18,     (2018, 1, 1)
 vehicleList['DAEWOO_NEW_BS110_LF']                  = 100,    10,     10,           65,      10,           228,    12,     (2012, 1, 1)
 vehicleList['LEGACY_BUS']                           = 100,    10,     10,           50,      10,           261,    30,     (1980, 1, 1)
 

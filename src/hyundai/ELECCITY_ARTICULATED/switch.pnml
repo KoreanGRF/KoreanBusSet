@@ -1,0 +1,87 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Cargo subtype
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_ARTICULATED_cargo_subtype_text, cargo_subtype) {
+    // 1: // DEFAULT - Manufacture
+
+    // Sejong BRT
+    2: return string(STR_REFIT_LIVERY_SEJONG_BRT);
+
+    // Company colours
+    3: return string(STR_REFIT_LIVERY_COMPANY_COLOUR);
+    4: return string(STR_REFIT_LIVERY_DARK_BLUE);
+    5: return string(STR_REFIT_LIVERY_PALE_GREEN);
+    6: return string(STR_REFIT_LIVERY_PINK);
+    7: return string(STR_REFIT_LIVERY_YELLOW);
+    8: return string(STR_REFIT_LIVERY_RED);
+    9: return string(STR_REFIT_LIVERY_LIGHT_BLUE);
+    10: return string(STR_REFIT_LIVERY_GREEN);
+    11: return string(STR_REFIT_LIVERY_DARK_GREEN);
+    12: return string(STR_REFIT_LIVERY_BLUE);
+    13: return string(STR_REFIT_LIVERY_CREAM);
+    14: return string(STR_REFIT_LIVERY_MAUVE);
+    15: return string(STR_REFIT_LIVERY_PURPLE);
+    16: return string(STR_REFIT_LIVERY_ORANGE);
+    17: return string(STR_REFIT_LIVERY_BROWN);
+    18: return string(STR_REFIT_LIVERY_GREY);
+    19: return string(STR_REFIT_LIVERY_WHITE);
+
+    return string(STR_REFIT_LIVERY_MANUFACTURE);
+}
+
+// Engine - Cargo subtype
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_ARTICULATED_H_cargo_subtype, cargo_subtype) {
+    2: set_HYUNDAI_ELECCITY_ARTICULATED_SEJONG_BRT_H;
+    3..19: set_HYUNDAI_ELECCITY_ARTICULATED_COMPANY_COLOUR_H;
+    set_HYUNDAI_ELECCITY_ARTICULATED_MANUFACTURE_H;
+}
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_ARTICULATED_T_cargo_subtype, cargo_subtype) {
+    2: set_HYUNDAI_ELECCITY_ARTICULATED_SEJONG_BRT_T;
+    3..19: set_HYUNDAI_ELECCITY_ARTICULATED_COMPANY_COLOUR_T;
+    set_HYUNDAI_ELECCITY_ARTICULATED_MANUFACTURE_T;
+}
+
+// Engine - Articulated part
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_ARTICULATED_articulated_part, extra_callback_info1) {
+    1: ko_bus_HYUNDAI_ELECCITY_ARTICULATED;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+// Engine
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_ARTICULATED_engine, position_in_vehid_chain % 2) {
+    0: sw_HYUNDAI_ELECCITY_ARTICULATED_H_cargo_subtype;
+    1: sw_HYUNDAI_ELECCITY_ARTICULATED_T_cargo_subtype;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+
+// Colour remapping
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_ARTICULATED_recolour, cargo_subtype) {
+    // 1: // DEFAULT - Manufacture
+    // 2: // Sejong BRT
+
+    // 3~19: Company colour
+    // 3: // Company colour
+    4: palette_1cc(COLOUR_DARK_BLUE);
+    5: palette_1cc(COLOUR_PALE_GREEN);
+    6: palette_1cc(COLOUR_PINK);
+    7: palette_1cc(COLOUR_YELLOW);
+    8: palette_1cc(COLOUR_RED);
+    9: palette_1cc(COLOUR_LIGHT_BLUE);
+    10: palette_1cc(COLOUR_GREEN);
+    11: palette_1cc(COLOUR_DARK_GREEN);
+    12: palette_1cc(COLOUR_BLUE);
+    13: palette_1cc(COLOUR_CREAM);
+    14: palette_1cc(COLOUR_MAUVE);
+    15: palette_1cc(COLOUR_PURPLE);
+    16: palette_1cc(COLOUR_ORANGE);
+    17: palette_1cc(COLOUR_BROWN);
+    18: palette_1cc(COLOUR_GREY);
+    19: palette_1cc(COLOUR_WHITE);
+
+    // Others
+    return CB_RESULT_COLOUR_MAPPING_ADD_CC;
+}

@@ -1,0 +1,71 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+/**
+ * Hyundai ElecCity
+ */
+SPEED(HYUNDAI_ELECCITY_ARTICULATED)
+COST(HYUNDAI_ELECCITY_ARTICULATED)
+RUNNING(HYUNDAI_ELECCITY_ARTICULATED)
+CAPACITY(HYUNDAI_ELECCITY_ARTICULATED)
+LOADING(HYUNDAI_ELECCITY_ARTICULATED)
+
+// Graphic
+#include "graphic.pnml"
+
+// Switch
+#include "switch.pnml"
+
+// Hyundai ElecCity
+item(FEAT_ROADVEHS, ko_bus_HYUNDAI_ELECCITY_ARTICULATED, 5017) {
+    property {
+        // Common properties
+        name:                           string(STR_HYUNDAI_ELECCITY_ARTICULATED_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_HYUNDAI_ELECCITY_ARTICULATED_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          var_HYUNDAI_ELECCITY_ARTICULATED_POWER kW;
+        weight:                         var_HYUNDAI_ELECCITY_ARTICULATED_WEIGHT ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   15;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 15;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
+    }
+    graphics {
+        default:                        sw_HYUNDAI_ELECCITY_ARTICULATED_engine;
+        articulated_part:               sw_HYUNDAI_ELECCITY_ARTICULATED_articulated_part;
+        purchase:                       sw_HYUNDAI_ELECCITY_ARTICULATED_purchase;
+
+        speed:                          sw_HYUNDAI_ELECCITY_ARTICULATED_speed;
+        cost_factor:                    sw_HYUNDAI_ELECCITY_ARTICULATED_cost;
+        running_cost_factor:            sw_HYUNDAI_ELECCITY_ARTICULATED_runningcost;
+        cargo_capacity:                 sw_HYUNDAI_ELECCITY_ARTICULATED_capacity;
+        loading_speed:                  sw_HYUNDAI_ELECCITY_ARTICULATED_loadingspeed;
+
+        cargo_subtype_text:             sw_HYUNDAI_ELECCITY_ARTICULATED_cargo_subtype_text;
+
+        // Company colours remapping
+        colour_mapping:                 sw_HYUNDAI_ELECCITY_ARTICULATED_recolour;
+    }
+}

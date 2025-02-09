@@ -11,6 +11,7 @@ sort(FEAT_ROADVEHS, [
 	ko_bus_HYUNDAI_UNIVERSE_2019_FACELIFT,                    // 5014
 	ko_bus_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR,   // 5015
 	ko_bus_HYUNDAI_ELECCITY,                                  // 5016
+	ko_bus_HYUNDAI_ELECCITY_ARTICULATED,                      // 5017
 	ko_bus_DAEWOO_NEW_BS110_LF,                               // 5020
 	ko_bus_HYUNDAI_COUNTY_LONG,                               // 5030
 	ko_bus_HYUNDAI_COUNTY_XLONG,                              // 5031
