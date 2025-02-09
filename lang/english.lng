@@ -13,6 +13,7 @@ STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_NAME                    :Hyundai Universe Spac
 STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_NAME   :Hyundai Universe Space Luxury (with middle door)
 STR_HYUNDAI_UNIVERSE_2019_FACELIFT_NAME                   :Hyundai Universe 2019 Face-lift
 STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :Hyundai Universe 2019 Face-lift (with middle door)
+STR_HYUNDAI_ELECCITY_NAME                                 :Hyundai ELEC CITY
 STR_DAEWOO_NEW_BS110_LF_NAME                              :Daewoo NEW BS110 Low-floor Bus
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :Legacy Seoul Bus (Green)
 STR_LEGACY_BUS_SEOUL_RED_NAME                             :Legacy Seoul Bus (Red)
@@ -26,9 +27,11 @@ STR_HYUNDAI_COUNTY_LONG_NAME                              :Hyundai County (Long 
 STR_HYUNDAI_COUNTY_XLONG_NAME                             :Hyundai County (Super-long axis)
 
 # Refit (region)
+STR_REFIT_LIVERY_SEOUL_YELLOW_SHUTTLE                     : (Seoul, Shuttle)
 STR_REFIT_LIVERY_CHEONAN                                  : (Cheonan)
 STR_REFIT_LIVERY_BUSAN                                    : (Busan)
 STR_REFIT_LIVERY_GWANGJU                                  : (Gwangju)
+STR_REFIT_LIVERY_GWANGJU_EXPRESS                          : (Gwangju, express)
 STR_REFIT_LIVERY_ULSAN                                    : (Ulsan)
 STR_REFIT_LIVERY_CHUNGBUK                                 : (Chungcheongbuk-do)
 

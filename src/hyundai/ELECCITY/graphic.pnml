@@ -1,0 +1,81 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Manufacture
+spriteset(set_HYUNDAI_ELECCITY_MANUFACTURE_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 0)
+}
+spriteset(set_HYUNDAI_ELECCITY_MANUFACTURE, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 0)
+}
+
+// Company colour
+spriteset(set_HYUNDAI_ELECCITY_COMPANY_COLOUR_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 30)
+}
+spriteset(set_HYUNDAI_ELECCITY_COMPANY_COLOUR, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 30)
+}
+
+// Seoul (company colour)
+spriteset(set_HYUNDAI_ELECCITY_SEOUL_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 60)
+}
+spriteset(set_HYUNDAI_ELECCITY_SEOUL, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 60)
+}
+
+// Seoul Y
+spriteset(set_HYUNDAI_ELECCITY_SEOUL_YELLOW_SHUTTLE_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 90)
+}
+spriteset(set_HYUNDAI_ELECCITY_SEOUL_YELLOW_SHUTTLE, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 90)
+}
+
+// Gyeonggi 2006~ (company colour)
+spriteset(set_HYUNDAI_ELECCITY_GYEONGGI_2006_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 120)
+}
+spriteset(set_HYUNDAI_ELECCITY_GYEONGGI_2006, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 120)
+}
+
+// Gyeonggi 2020~ (company colour)
+spriteset(set_HYUNDAI_ELECCITY_GYEONGGI_2020_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 150)
+}
+spriteset(set_HYUNDAI_ELECCITY_GYEONGGI_2020, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 150)
+}
+
+// Gwangju
+spriteset(set_HYUNDAI_ELECCITY_GWANGJU_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 180)
+}
+spriteset(set_HYUNDAI_ELECCITY_GWANGJU, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 180)
+}
+
+// Gwangju (express)
+spriteset(set_HYUNDAI_ELECCITY_GWANGJU_EXPRESS_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 210)
+}
+spriteset(set_HYUNDAI_ELECCITY_GWANGJU_EXPRESS, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 210)
+}
+
+// Busan 2017~ (company colour)
+spriteset(set_HYUNDAI_ELECCITY_BUSAN_purchase, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard_purchase(0, 240)
+}
+spriteset(set_HYUNDAI_ELECCITY_BUSAN, "./src/hyundai/ELECCITY/ELECCITY.png") {
+    tmpl_standard(60, 240)
+}
+
+// Default Purchase
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_purchase, 1) {
+    set_HYUNDAI_ELECCITY_MANUFACTURE_purchase;
+}

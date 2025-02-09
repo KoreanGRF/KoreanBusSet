@@ -13,6 +13,7 @@ STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_NAME                    :현대 유니버스 �
 STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_NAME   :현대 유니버스 스페이스 럭셔리 (전중문형)
 STR_HYUNDAI_UNIVERSE_2019_FACELIFT_NAME                   :현대 유니버스 2019 페이스리프트 (전문형)
 STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :현대 유니버스 2019 페이스리프트 (전중문형)
+STR_HYUNDAI_ELECCITY_NAME                                 :현대 일렉시티
 STR_DAEWOO_NEW_BS110_LF_NAME                              :대우 NEW BS110 저상
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :구 서울 버스 (G, 저상)
 STR_LEGACY_BUS_SEOUL_RED_NAME                             :구 서울 버스 (R, 저상)
@@ -26,9 +27,11 @@ STR_HYUNDAI_COUNTY_LONG_NAME                              :현대 카운티 (장
 STR_HYUNDAI_COUNTY_XLONG_NAME                             :현대 카운티 (초장축)
 
 # Refit (region)
+STR_REFIT_LIVERY_SEOUL_YELLOW_SHUTTLE                     : (서울, 순환)
 STR_REFIT_LIVERY_CHEONAN                                  : (천안)
 STR_REFIT_LIVERY_BUSAN                                    : (부산)
 STR_REFIT_LIVERY_GWANGJU                                  : (광주)
+STR_REFIT_LIVERY_GWANGJU_EXPRESS                          : (광주, 급행)
 STR_REFIT_LIVERY_ULSAN                                    : (울산)
 STR_REFIT_LIVERY_CHUNGBUK                                 : (충청북도)
 

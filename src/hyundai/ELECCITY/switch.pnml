@@ -1,0 +1,104 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+
+// Cargo subtype
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_cargo_subtype_text, cargo_subtype) {
+    // 1:  // DEFAULT - Manufacture
+    // Company colour
+    2:  return string(STR_REFIT_LIVERY_SEOUL_COMPANY_COLOUR);
+
+    // Seoul (company colour)
+    3:  return string(STR_REFIT_LIVERY_SEOUL_DARK_BLUE);
+    4:  return string(STR_REFIT_LIVERY_SEOUL_YELLOW);
+    5:  return string(STR_REFIT_LIVERY_SEOUL_RED);
+    6:  return string(STR_REFIT_LIVERY_SEOUL_GREEN);
+    7:  return string(STR_REFIT_LIVERY_SEOUL_BLUE);
+
+    // Seoul Y
+    8: return string(STR_REFIT_LIVERY_SEOUL_YELLOW_SHUTTLE);
+
+    // Gyeonggi 2006~ (company colour)
+    10: return string(STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR);
+    11: return string(STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE);
+    12: return string(STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN);
+    13: return string(STR_REFIT_LIVERY_GYEONGGI_PINK);
+    14: return string(STR_REFIT_LIVERY_GYEONGGI_YELLOW);
+    15: return string(STR_REFIT_LIVERY_GYEONGGI_RED);
+    16: return string(STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE);
+    17: return string(STR_REFIT_LIVERY_GYEONGGI_GREEN);
+    18: return string(STR_REFIT_LIVERY_GYEONGGI_BLUE);
+
+    // Gyeonggi 2020~ (company colour)
+    20: return string(STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR);
+    21: return string(STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE);
+    22: return string(STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN);
+    23: return string(STR_REFIT_LIVERY_GYEONGGI_PINK);
+    24: return string(STR_REFIT_LIVERY_GYEONGGI_YELLOW);
+    25: return string(STR_REFIT_LIVERY_GYEONGGI_RED);
+    26: return string(STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE);
+    27: return string(STR_REFIT_LIVERY_GYEONGGI_GREEN);
+    28: return string(STR_REFIT_LIVERY_GYEONGGI_BLUE);
+
+    // Gwangju
+    30: return string(STR_REFIT_LIVERY_GWANGJU);
+
+    // Gwangju (express)
+    31: return string(STR_REFIT_LIVERY_GWANGJU_EXPRESS);
+
+    // Busan 2017~ (company colour)
+    32: return string(STR_REFIT_LIVERY_BUSAN);
+    return string(STR_REFIT_LIVERY_MANUFACTURE);
+}
+
+// Colour remapping
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_recolour, cargo_subtype) {
+    // 1:  // DEFAULT - Manufacture
+    // 2: Company colour
+    // 3~7: Seoul (company colour)
+    3:  palette_1cc(COLOUR_DARK_BLUE);
+    4:  palette_1cc(COLOUR_YELLOW);
+    5:  palette_1cc(COLOUR_RED);
+    6:  palette_1cc(COLOUR_GREEN);
+    7:  palette_1cc(COLOUR_BLUE);
+    // 8:  // Seoul (Yellow, Shuttle)
+
+    // 10~18: Gyeonggi 2006~ (company colour)
+    // 10: Company colour
+    11: palette_1cc(COLOUR_DARK_BLUE);
+    12: palette_1cc(COLOUR_PALE_GREEN);
+    13: palette_1cc(COLOUR_PINK);
+    14: palette_1cc(COLOUR_YELLOW);
+    15: palette_1cc(COLOUR_RED);
+    16: palette_1cc(COLOUR_LIGHT_BLUE);
+    17: palette_1cc(COLOUR_GREEN);
+    18: palette_1cc(COLOUR_BLUE);
+    
+    // Gyeonggi 2020~ (company colour)
+    // 20: Company colour
+    21: palette_1cc(COLOUR_DARK_BLUE);
+    22: palette_1cc(COLOUR_PALE_GREEN);
+    23: palette_1cc(COLOUR_PINK);
+    24: palette_1cc(COLOUR_YELLOW);
+    25: palette_1cc(COLOUR_RED);
+    26: palette_1cc(COLOUR_LIGHT_BLUE);
+    27: palette_1cc(COLOUR_GREEN);
+    28: palette_1cc(COLOUR_BLUE);
+
+    // Others
+    return CB_RESULT_COLOUR_MAPPING_ADD_CC;
+}
+
+// Engine
+switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_ELECCITY_engine, cargo_subtype) {
+    2:      set_HYUNDAI_ELECCITY_COMPANY_COLOUR;
+    3..7:   set_HYUNDAI_ELECCITY_SEOUL;
+    8:      set_HYUNDAI_ELECCITY_SEOUL_YELLOW_SHUTTLE;
+    10..18: set_HYUNDAI_ELECCITY_GYEONGGI_2006;
+    20..28: set_HYUNDAI_ELECCITY_GYEONGGI_2020;
+    30:     set_HYUNDAI_ELECCITY_GWANGJU;
+    31:     set_HYUNDAI_ELECCITY_GWANGJU_EXPRESS;
+    32:     set_HYUNDAI_ELECCITY_BUSAN;
+    return set_HYUNDAI_ELECCITY_MANUFACTURE;
+}
