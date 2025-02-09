@@ -163,8 +163,8 @@ sw_loading_speed_factor =   1 << max(0, min(coeff_loading_speed, 3));
 #include "src/template/hyundai.pnml"
 
 // Items
-#include "./src/hyundai/super_aerocity_low_floor/item.pnml"
-#include "./src/hyundai/universe/item.pnml"
+#include "./src/hyundai/SUPER_AEROCITY_LF/item.pnml"
+#include "./src/hyundai/UNIVERSE/item.pnml"
 #include "./src/hyundai/ELECCITY/item.pnml"
 #include "./src/hyundai/ELECCITY_ARTICULATED/item.pnml"
 #include "./src/hyundai/ELECCITY_DOUBLE_DECKER/item.pnml"

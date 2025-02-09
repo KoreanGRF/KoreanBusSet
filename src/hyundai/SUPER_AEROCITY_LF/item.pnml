@@ -28,8 +28,8 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_SUPER_AEROCITY_LF, 5010) {
         sprite_id:                      SPRITE_ID_NEW_ROADVEH;
 
         // Spec
-        power:                          261 kW;
-        weight:                         30 ton;
+        power:                          var_HYUNDAI_SUPER_AEROCITY_LF_POWER kW;
+        weight:                         var_HYUNDAI_SUPER_AEROCITY_LF_WEIGHT ton;
 
         // Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -38,7 +38,7 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_SUPER_AEROCITY_LF, 5010) {
         reliability_decay:              0;
 
         // Cargo
-        cargo_capacity:                 50;
+        cargo_capacity:                 var_HYUNDAI_SUPER_AEROCITY_LF_CAPACITY;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
