@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@main
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -23,9 +23,12 @@ jobs:
       run: |
         pip install nml
 
+    - name: Set execute permission for findversion.sh
+      run: chmod +x ./findversion.sh
+
     - name: Build NewGRF
       run: make all
-    
+
     - name: Set variables
       id: vars
       run: echo "sha_short=$(git rev-parse --short HEAD 2>/dev/null)" >> $GITHUB_OUTPUT
@@ -33,5 +36,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: 544b0202-Korean_Bus_Set-${{ steps.vars.outputs.sha_short }}  # Name with sha short hash
-        path: ./generated/544b0202-Korean_Bus_Set-*.tar
+        name: 544b0202-Korean-Bus-Set-${{ steps.vars.outputs.sha_short }}  # Name with sha short hash
+        path: ./generated/544b0202-Korean-Bus-Set-*.tar

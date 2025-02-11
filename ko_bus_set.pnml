@@ -179,4 +179,4 @@ if (!bool_use_legacy_bus) {
 }
 
 // Sort
-#include "./src/sort.pnml"
+#include "src/sort.pnml"
