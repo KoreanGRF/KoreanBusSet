@@ -8,16 +8,16 @@ spriteset(set_HYUNDAI_UNIVERSE_NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE_purchase, "./s
     tmpl_purchase_common(0, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE_JOONANG, "./src/hyundai/UNIVERSE/NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE_KUMHO, "./src/hyundai/UNIVERSE/NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 30)
+    tmpl_standard(60, 30)
 }
 spriteset(set_HYUNDAI_UNIVERSE_NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE_PREMIUM_GOLD_1, "./src/hyundai/UNIVERSE/NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 60)
+    tmpl_standard(60, 60)
 }
 spriteset(set_HYUNDAI_UNIVERSE_NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE_PREMIUM_GOLD_2, "./src/hyundai/UNIVERSE/NEW_PREMIUM_UNIVERSE_EXPRESS_NOBLE.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 90)
+    tmpl_standard(60, 90)
 }
 
 // Hyundai Universe Space Luxury
@@ -25,37 +25,37 @@ spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_purchase, "./src/hyundai/UNIVERSE/UN
     tmpl_purchase_common(0, 30)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_SEOUL_R, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_M_BUS, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 30)
+    tmpl_standard(60, 30)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_GYEONGGI_R1, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 60)
+    tmpl_standard(60, 60)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_GYEONGGI_B1, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 90)
+    tmpl_standard(60, 90)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_GYEONGGI_R2, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 120)
+    tmpl_standard(60, 120)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_GYEONGGI_B2, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 150)
+    tmpl_standard(60, 150)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_GYEONGGI_RAPID, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 180)
+    tmpl_standard(60, 180)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_ROKAF, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 210)
+    tmpl_standard(60, 210)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_POLICE, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 240)
+    tmpl_standard(60, 240)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_MINISTRY_OF_JUSTICE, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 270)
+    tmpl_standard(60, 270)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_KD, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 300)
+    tmpl_standard(60, 300)
 }
 
 // Hyundai Universe Space Luxury with middle door
@@ -63,25 +63,25 @@ spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_purchase, "./src/hy
     tmpl_purchase_common(0, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_SEOUL_R, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_M_BUS, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 30)
+    tmpl_standard(60, 30)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_GYEONGGI_R1, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 60)
+    tmpl_standard(60, 60)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_GYEONGGI_B1, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 90)
+    tmpl_standard(60, 90)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_GYEONGGI_R2, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 120)
+    tmpl_standard(60, 120)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_GYEONGGI_B2, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 150)
+    tmpl_standard(60, 150)
 }
 spriteset(set_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_GYEONGGI_RAPID, "./src/hyundai/UNIVERSE/UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 180)
+    tmpl_standard(60, 180)
 }
 
 // Hyundai Universe 2019 Face-lift
@@ -89,22 +89,22 @@ spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_purchase, "./src/hyundai/UNIVERSE/U
     tmpl_purchase_common(0, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_SEOUL_R, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_GYEONGGI_R2, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 30)
+    tmpl_standard(60, 30)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_KUMHO, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 60)
+    tmpl_standard(60, 60)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_JOONGANG, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 90)
+    tmpl_standard(60, 90)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_KD, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 120)
+    tmpl_standard(60, 120)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_PREMIUM_GOLD, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 150)
+    tmpl_standard(60, 150)
 }
 
 // Hyundai Universe 2019 Face-lift with middle door
@@ -112,10 +112,10 @@ spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_purchase, "./src/h
     tmpl_purchase_common(0, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_SEOUL_R, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_GYEONGGI_R2, "./src/hyundai/UNIVERSE/UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR.png") {
-    tmpl_HYUNDAI_UNIVERSE(60, 30)
+    tmpl_standard(60, 30)
 }
 
 switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_UNIVERSE_EXPRESS_NOBLE_purchase, 1) {

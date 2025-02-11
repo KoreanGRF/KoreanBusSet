@@ -8,7 +8,7 @@ spriteset(set_HYUNDAI_COUNTY_LONG_SEOUL_purchase, "./src/hyundai/COUNTY_LONG/COU
     tmpl_purchase_detail(0, 0, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_COUNTY_LONG_SEOUL, "./src/hyundai/COUNTY_LONG/COUNTY_LONG.png") {
-    tmpl_HYUNDAI_COUNTY(60, 0)
+    tmpl_standard(60, 0)
 }
 
 // Gyeonggi
@@ -16,7 +16,7 @@ spriteset(set_HYUNDAI_COUNTY_LONG_GYEONGGI_purchase, "./src/hyundai/COUNTY_LONG/
     tmpl_purchase_detail(0, 30, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_COUNTY_LONG_GYEONGGI, "./src/hyundai/COUNTY_LONG/COUNTY_LONG.png") {
-    tmpl_HYUNDAI_COUNTY(60, 30)
+    tmpl_standard(60, 30)
 }
 
 // Erud Beige
@@ -24,7 +24,7 @@ spriteset(set_HYUNDAI_COUNTY_LONG_ERUDBEIGE_purchase, "./src/hyundai/COUNTY_LONG
     tmpl_purchase_detail(0, 90, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_COUNTY_LONG_ERUDBEIGE, "./src/hyundai/COUNTY_LONG/COUNTY_LONG.png") {
-    tmpl_HYUNDAI_COUNTY(60, 60)
+    tmpl_standard(60, 60)
 }
 
 switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_COUNTY_LONG_purchase, 1) {

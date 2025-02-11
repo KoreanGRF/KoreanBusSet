@@ -8,13 +8,13 @@ spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_purchase, "./src/hyundai/SUPER_AER
     tmpl_purchase_detail(0, 0, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC_2008_2014, "./src/hyundai/SUPER_AEROCITY_LF/SEOUL.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC_2015_2017, "./src/hyundai/SUPER_AEROCITY_LF/SEOUL.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 30)
+    tmpl_standard(60, 30)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_SEOUL_CC_2018, "./src/hyundai/SUPER_AEROCITY_LF/SEOUL.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 60)
+    tmpl_standard(60, 60)
 }
 
 // Gyeonggi
@@ -22,10 +22,10 @@ spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_purchase, "./src/hyundai/SUPER_
     tmpl_purchase_detail(0, 90, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_CC_2006_2019, "./src/hyundai/SUPER_AEROCITY_LF/GYEONGGI.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GYEONGGI_CC_2020, "./src/hyundai/SUPER_AEROCITY_LF/GYEONGGI.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 90)
+    tmpl_standard(60, 90)
 }
 
 // Other
@@ -33,49 +33,49 @@ spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_MANUFACTURE_purchase, "./src/hyundai/SUP
     tmpl_purchase_detail(0, 0, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_MANUFACTURE, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 0)
+    tmpl_standard(60, 0)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_CHEONAN_purchase, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
     tmpl_purchase_detail(0, 30, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_CHEONAN, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 30)
+    tmpl_standard(60, 30)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_BUSAN_2000_purchase, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
     tmpl_purchase_detail(0, 60, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_BUSAN_2000, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 60)
+    tmpl_standard(60, 60)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_BUSAN_2017_purchase, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
     tmpl_purchase_detail(0, 90, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_BUSAN_2017, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 90)
+    tmpl_standard(60, 90)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GWANGJU_purchase, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
     tmpl_purchase_detail(0, 120, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GWANGJU, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 120)
+    tmpl_standard(60, 120)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GWANGJU_EXPRESS_purchase, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
     tmpl_purchase_detail(0, 150, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_GWANGJU_EXPRESS, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 150)
+    tmpl_standard(60, 150)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_ULSAN_purchase, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
     tmpl_purchase_detail(0, 180, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_ULSAN, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 180)
+    tmpl_standard(60, 180)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_CHUNGBUK_purchase, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
     tmpl_purchase_detail(0, 210, 31, 13, -14, -6)
 }
 spriteset(set_HYUNDAI_SUPER_AEROCITY_LF_CHUNGBUK, "./src/hyundai/SUPER_AEROCITY_LF/OTHER.png") {
-    tmpl_HYUNDAI_SUPER_AEROCITY_LF(60, 210)
+    tmpl_standard(60, 210)
 }
 
 switch(FEAT_ROADVEHS, SELF, sw_HYUNDAI_SUPER_AEROCITY_LF_purchase, 1) {

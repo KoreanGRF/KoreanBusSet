@@ -3,6 +3,7 @@
  * https://github.com/KoreanGRF/KoreanBusSet
 ------------------------------------------------------------------------------*/
 
+// Standard template (based on HYUNDAI_UNIVERSE)
 template tmpl_standard(x, y) {
     [x+0,     y,    7,  23,   -4,  -11]
     [x+20,    y,   25,  19,  -14,   -8]
@@ -11,28 +12,17 @@ template tmpl_standard(x, y) {
     [x+120,   y,    7,  21,   -4,  -10]
     [x+140,   y,   25,  19,  -16,   -8]
     [x+170,   y,   31,  13,  -14,   -8]
-    [x+210,   y,   24,  19,   -6,   -9]
+    [x+210,   y,   25,  19,   -6,   -9]
 }
-template tmpl_HYUNDAI_SUPER_AEROCITY_LF(x, y) {
-    [x+0,     y,    7,  23,   -4,  -13]
-    [x+20,    y,   25,  19,  -14,   -8]
-    [x+50,    y,   31,  13,  -14,   -7]
-    [x+90,    y,   25,  18,  -10,   -8]
-    [x+120,   y,    7,  21,   -4,  -10]
-    [x+140,   y,   25,  18,  -16,   -8]
-    [x+170,   y,   31,  13,  -14,   -8]
-    [x+210,   y,   24,  19,   -6,   -9]
-}
-template tmpl_HYUNDAI_UNIVERSE(x, y) {
-    [x+0,     y,    7,  23,   -4,  -11]
-    [x+20,    y,   25,  19,  -14,   -8]
-    [x+50,    y,   31,  13,  -14,   -7]
-    [x+90,    y,   25,  19,  -10,   -8]
-    [x+120,   y,    7,  21,   -4,  -10]
-    [x+140,   y,   25,  19,  -16,   -8]
-    [x+170,   y,   31,  13,  -14,   -8]
-    [x+210,   y,   24,  19,   -6,   -9]
-}
-template tmpl_HYUNDAI_COUNTY(x, y) {
-    tmpl_HYUNDAI_UNIVERSE(x, y)
+
+// Standard template for Double Decker
+template tmpl_standard_double_decker(x, y) {
+    [x+0,     y,    7,  27,   -4,  -15]
+    [x+20,    y,   25,  24,  -16,  -12]
+    [x+50,    y,   31,  18,  -14,  -12]
+    [x+90,    y,   25,  24,  -12,  -14]
+    [x+120,   y,    7,  27,   -4,  -15]
+    [x+140,   y,   25,  24,  -14,  -14]
+    [x+170,   y,   31,  18,  -14,  -12]
+    [x+210,   y,   25,  24,   -2,  -10]
 }
