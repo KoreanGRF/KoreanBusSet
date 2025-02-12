@@ -16,6 +16,8 @@ STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :현대 유니버스 2
 STR_HYUNDAI_ELECCITY_NAME                                 :현대 일렉시티
 STR_HYUNDAI_ELECCITY_ARTICULATED_NAME                     :현대 일렉시티 (굴절)
 STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :현대 일렉시티 (2층)
+STR_DAEWOO_NEW_BS090_NAME                                 :대우 NEW BS090 - 로열미디
+STR_DAEWOO_NEW_BS106_NAME                                 :대우 NEW BS106 - 로열시티
 STR_DAEWOO_NEW_BS110_LF_NAME                              :대우 NEW BS110 저상
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :구 서울 버스 (G, 저상)
 STR_LEGACY_BUS_SEOUL_RED_NAME                             :구 서울 버스 (R, 저상)

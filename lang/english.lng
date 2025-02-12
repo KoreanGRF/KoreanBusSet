@@ -16,6 +16,8 @@ STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :Hyundai Universe 2019
 STR_HYUNDAI_ELECCITY_NAME                                 :Hyundai ELEC CITY
 STR_HYUNDAI_ELECCITY_ARTICULATED_NAME                     :Hyundai ELEC CITY (Articulated)
 STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :Hyundai ELEC CITY (Double Decker)
+STR_DAEWOO_NEW_BS090_NAME                                 :Daewoo NEW BS090 - Royalmidi
+STR_DAEWOO_NEW_BS106_NAME                                 :Daewoo NEW BS106 - Royalcity
 STR_DAEWOO_NEW_BS110_LF_NAME                              :Daewoo NEW BS110 Low-floor Bus
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :Legacy Seoul Bus (Green)
 STR_LEGACY_BUS_SEOUL_RED_NAME                             :Legacy Seoul Bus (Red)

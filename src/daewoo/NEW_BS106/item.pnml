@@ -1,0 +1,70 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+/**
+ * Daewoo Zyle NEW BS106 Royal (Royalcity)
+ */
+SPEED(DAEWOO_NEW_BS106)
+COST(DAEWOO_NEW_BS106)
+RUNNING(DAEWOO_NEW_BS106)
+CAPACITY(DAEWOO_NEW_BS106)
+LOADING(DAEWOO_NEW_BS106)
+
+// Graphic
+#include "graphic.pnml"
+
+// Switch
+#include "switch.pnml"
+
+// Item
+item(FEAT_ROADVEHS, ko_bus_DAEWOO_NEW_BS106, 5022) {
+    property {
+        // Common properties
+        name:                           string(STR_DAEWOO_NEW_BS106_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              var_DAEWOO_NEW_BS106_INTRODUCTION;
+        road_type:                      ROAD;
+        sprite_id:                      SPRITE_ID_NEW_ROADVEH;
+
+        // Spec
+        power:                          261 kW;
+        weight:                         30 ton;
+
+        // Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   12;
+        retire_early:                   0;
+        reliability_decay:              0;
+
+        // Cargo
+        cargo_capacity:                 50;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+
+        // Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ROADVEH;
+
+        // Flags
+        misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
+        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
+    }
+    graphics {
+        default:                        sw_DAEWOO_NEW_BS106_engine;
+        purchase:                       sw_DAEWOO_NEW_BS106_purchase;
+
+        speed:                          sw_DAEWOO_NEW_BS106_speed;
+        cost_factor:                    sw_DAEWOO_NEW_BS106_cost;
+        running_cost_factor:            sw_DAEWOO_NEW_BS106_runningcost;
+        cargo_capacity:                 sw_DAEWOO_NEW_BS106_capacity;
+        loading_speed:                  sw_DAEWOO_NEW_BS106_loadingspeed;
+
+        cargo_subtype_text:             sw_DAEWOO_NEW_BS106_cargo_subtype_text;
+
+        // Company colours remapping
+        colour_mapping:                 sw_DAEWOO_NEW_BS106_recolour;
+    }
+}

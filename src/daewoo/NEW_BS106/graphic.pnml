@@ -1,0 +1,25 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+    
+// Seoul
+spriteset(set_DAEWOO_NEW_BS106_SEOUL_CC_purchase, "./src/daewoo/NEW_BS106/NEW_BS106.png") {
+    tmpl_standard_purchase(0, 0)
+}
+spriteset(set_DAEWOO_NEW_BS106_SEOUL_CC, "./src/daewoo/NEW_BS106/NEW_BS106.png") {
+    tmpl_standard(60, 0)
+}
+
+// Gyeonggi
+spriteset(set_DAEWOO_NEW_BS106_GYEONGGI_CC_purchase, "./src/daewoo/NEW_BS106/NEW_BS106.png") {
+    tmpl_standard_purchase(0, 30)
+}
+spriteset(set_DAEWOO_NEW_BS106_GYEONGGI_CC, "./src/daewoo/NEW_BS106/NEW_BS106.png") {
+    tmpl_standard(60, 30)
+}
+
+// Purchase
+switch(FEAT_ROADVEHS, SELF, sw_DAEWOO_NEW_BS106_purchase, 1) {
+    set_DAEWOO_NEW_BS106_SEOUL_CC_purchase;
+}

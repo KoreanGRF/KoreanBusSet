@@ -170,6 +170,8 @@ sw_loading_speed_factor =   1 << max(0, min(coeff_loading_speed, 3));
 #include "src/hyundai/ELECCITY_DOUBLE_DECKER/item.pnml"
 #include "src/hyundai/COUNTY_LONG/item.pnml"
 #include "src/hyundai/COUNTY_XLONG/item.pnml"
+#include "src/daewoo/NEW_BS090/item.pnml"
+#include "src/daewoo/NEW_BS106/item.pnml"
 #include "src/daewoo/NEW_BS110_LF/item.pnml"
 #include "src/legacy/item.pnml"
 
