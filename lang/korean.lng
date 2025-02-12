@@ -7,6 +7,8 @@ STR_GRF_DESC                                              :{BLACK}서울 및 경
 STR_GRF_URL                                               :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
 
 # Vehicle names
+STR_HYUNDAI_AEROCITY_NAME                                 :현대 에어로시티
+STR_HYUNDAI_GREENCITY_NAME                                :현대 그린시티
 STR_HYUNDAI_SUPER_AEROCITY_LF_NAME                        :현대 뉴 수퍼에어로시티 저상
 STR_HYUNDAI_UNIVERSE_EXPRESS_NOBLE_NAME                   :현대 뉴 프리미엄 유니버스 익스프레스 노블
 STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_NAME                    :현대 유니버스 스페이스 럭셔리 (전문형)

@@ -4,6 +4,8 @@
 ------------------------------------------------------------------------------*/
 
 sort(FEAT_ROADVEHS, [
+	ko_bus_HYUNDAI_AEROCITY,                                  // 5023
+	ko_bus_HYUNDAI_GREENCITY,                                 // 5024
 	ko_bus_HYUNDAI_SUPER_AEROCITY_LF,                         // 5010
 	ko_bus_HYUNDAI_UNIVERSE_EXPRESS_NOBLE,                    // 5011
 	ko_bus_HYUNDAI_UNIVERSE_SPACE_LUXURY,                     // 5012

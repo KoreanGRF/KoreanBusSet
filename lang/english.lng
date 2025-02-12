@@ -7,6 +7,8 @@ STR_GRF_DESC                                              :{BLACK}Korean buses i
 STR_GRF_URL                                               :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
 
 # Vehicle names
+STR_HYUNDAI_AEROCITY_NAME                                 :Hyundai Aerocity
+STR_HYUNDAI_GREENCITY_NAME                                :Hyundai Greencity
 STR_HYUNDAI_SUPER_AEROCITY_LF_NAME                        :Hyundai New Super Aerocity Low-floor Bus
 STR_HYUNDAI_UNIVERSE_EXPRESS_NOBLE_NAME                   :Hyundai New Premium Universe Express Noble
 STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_NAME                    :Hyundai Universe Space Luxury
