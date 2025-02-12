@@ -1,0 +1,41 @@
+/*------------------------------------------------------------------------------
+ * 한국 버스 세트(Korean Bus Set)
+ * https://github.com/KoreanGRF/KoreanBusSet
+------------------------------------------------------------------------------*/
+    
+// Seoul
+spriteset(set_DAEWOO_BS090_SEOUL_CC_purchase, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard_purchase(0, 0)
+}
+spriteset(set_DAEWOO_BS090_SEOUL_CC, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard(60, 0)
+}
+
+// Gyeonggi
+spriteset(set_DAEWOO_BS090_GYEONGGI_CC_purchase, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard_purchase(0, 30)
+}
+spriteset(set_DAEWOO_BS090_GYEONGGI_CC, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard(60, 30)
+}
+
+// KD
+spriteset(set_DAEWOO_BS090_KD_CC_purchase, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard_purchase(0, 60)
+}
+spriteset(set_DAEWOO_BS090_KD_CC, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard(60, 60)
+}
+
+// Seoul 1994~2004 (Mondriaan)
+spriteset(set_DAEWOO_BS090_SEOUL_MONDRIAAN_CC_purchase, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard_purchase(0, 90)
+}
+spriteset(set_DAEWOO_BS090_SEOUL_MONDRIAAN_CC, "./src/daewoo/BS090/BS090.png") {
+    tmpl_standard(60, 90)
+}
+
+// Purchase
+switch(FEAT_ROADVEHS, SELF, sw_DAEWOO_BS090_purchase, 1) {
+    set_DAEWOO_BS090_SEOUL_CC_purchase;
+}

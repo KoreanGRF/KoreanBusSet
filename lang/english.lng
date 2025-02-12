@@ -18,7 +18,7 @@ STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :Hyundai Universe 2019
 STR_HYUNDAI_ELECCITY_NAME                                 :Hyundai ELEC CITY
 STR_HYUNDAI_ELECCITY_ARTICULATED_NAME                     :Hyundai ELEC CITY (Articulated)
 STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :Hyundai ELEC CITY (Double Decker)
-STR_DAEWOO_NEW_BS090_NAME                                 :Daewoo NEW BS090 - Royalmidi
+STR_DAEWOO_BS090_NAME                                     :Daewoo BS090 - Royalmidi
 STR_DAEWOO_NEW_BS106_NAME                                 :Daewoo NEW BS106 - Royalcity
 STR_DAEWOO_NEW_BS110_LF_NAME                              :Daewoo NEW BS110 Low-floor Bus
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :Legacy Seoul Bus (Green)
@@ -42,6 +42,7 @@ STR_REFIT_LIVERY_GWANGJU                                  : (Gwangju)
 STR_REFIT_LIVERY_GWANGJU_EXPRESS                          : (Gwangju, express)
 STR_REFIT_LIVERY_ULSAN                                    : (Ulsan)
 STR_REFIT_LIVERY_CHUNGBUK                                 : (Chungcheongbuk-do)
+STR_REFIT_LIVERY_BS090_SEOUL_MONDRIAAN                    : (Seoul, 1994 ~ 2004, a.k.a Mondriaan)
 
 # Refit (recolour)
 STR_REFIT_LIVERY_MANUFACTURE                              : (Manufacture)

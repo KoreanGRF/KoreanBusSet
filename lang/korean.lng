@@ -4,7 +4,7 @@
 # GRF name and description
 STR_GRF_NAME_WITH_VER                                     :한국 버스 세트 {VERSION}
 STR_GRF_DESC                                              :{BLACK}서울 및 경기도 버스를 포함하고 있는 한국 버스 세트입니다.{}(최근 업데이트: {RECENT_UPDATED}){}{}{SILVER}+ 제작: TELK{}{BLACK}  - {AUTHOR_EMAIL}{}  - {AUTHOR_WEBSITE}
-STR_GRF_URL                                               :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=en
+STR_GRF_URL                                               :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=ko
 
 # Vehicle names
 STR_HYUNDAI_AEROCITY_NAME                                 :현대 에어로시티
@@ -18,7 +18,7 @@ STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :현대 유니버스 2
 STR_HYUNDAI_ELECCITY_NAME                                 :현대 일렉시티
 STR_HYUNDAI_ELECCITY_ARTICULATED_NAME                     :현대 일렉시티 (굴절)
 STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :현대 일렉시티 (2층)
-STR_DAEWOO_NEW_BS090_NAME                                 :대우 NEW BS090 - 로열미디
+STR_DAEWOO_BS090_NAME                                     :대우 BS090 - 로열미디
 STR_DAEWOO_NEW_BS106_NAME                                 :대우 NEW BS106 - 로열시티
 STR_DAEWOO_NEW_BS110_LF_NAME                              :대우 NEW BS110 저상
 STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :구 서울 버스 (G, 저상)
@@ -42,6 +42,7 @@ STR_REFIT_LIVERY_GWANGJU                                  : (광주)
 STR_REFIT_LIVERY_GWANGJU_EXPRESS                          : (광주, 급행)
 STR_REFIT_LIVERY_ULSAN                                    : (울산)
 STR_REFIT_LIVERY_CHUNGBUK                                 : (충청북도)
+STR_REFIT_LIVERY_BS090_SEOUL_MONDRIAAN                    : (서울, 1994 ~ 2004년, 몬드리안)
 
 # Refit (recolour)
 STR_REFIT_LIVERY_MANUFACTURE                              : (제조사 기본)

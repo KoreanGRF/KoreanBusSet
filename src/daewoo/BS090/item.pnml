@@ -3,13 +3,13 @@
  * https://github.com/KoreanGRF/KoreanBusSet
 ------------------------------------------------------------------------------*/
 /**
- * Daewoo Zyle NEW BS090 Royal (Royalmidi)
+ * Daewoo Zyle BS090 Royal (Royalmidi)
  */
-SPEED(DAEWOO_NEW_BS090)
-COST(DAEWOO_NEW_BS090)
-RUNNING(DAEWOO_NEW_BS090)
-CAPACITY(DAEWOO_NEW_BS090)
-LOADING(DAEWOO_NEW_BS090)
+SPEED(DAEWOO_BS090)
+COST(DAEWOO_BS090)
+RUNNING(DAEWOO_BS090)
+CAPACITY(DAEWOO_BS090)
+LOADING(DAEWOO_BS090)
 
 // Graphic
 #include "graphic.pnml"
@@ -18,12 +18,12 @@ LOADING(DAEWOO_NEW_BS090)
 #include "switch.pnml"
 
 // Item
-item(FEAT_ROADVEHS, ko_bus_DAEWOO_NEW_BS090, 5021) {
+item(FEAT_ROADVEHS, ko_bus_DAEWOO_BS090, 5021) {
     property {
         // Common properties
-        name:                           string(STR_DAEWOO_NEW_BS090_NAME);
+        name:                           string(STR_DAEWOO_BS090_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              var_DAEWOO_NEW_BS090_INTRODUCTION;
+        introduction_date:              var_DAEWOO_BS090_INTRODUCTION;
         road_type:                      ROAD;
         sprite_id:                      SPRITE_ID_NEW_ROADVEH;
 
@@ -53,18 +53,18 @@ item(FEAT_ROADVEHS, ko_bus_DAEWOO_NEW_BS090, 5021) {
         sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
     }
     graphics {
-        default:                        sw_DAEWOO_NEW_BS090_engine;
-        purchase:                       sw_DAEWOO_NEW_BS090_purchase;
+        default:                        sw_DAEWOO_BS090_engine;
+        purchase:                       sw_DAEWOO_BS090_purchase;
 
-        speed:                          sw_DAEWOO_NEW_BS090_speed;
-        cost_factor:                    sw_DAEWOO_NEW_BS090_cost;
-        running_cost_factor:            sw_DAEWOO_NEW_BS090_runningcost;
-        cargo_capacity:                 sw_DAEWOO_NEW_BS090_capacity;
-        loading_speed:                  sw_DAEWOO_NEW_BS090_loadingspeed;
+        speed:                          sw_DAEWOO_BS090_speed;
+        cost_factor:                    sw_DAEWOO_BS090_cost;
+        running_cost_factor:            sw_DAEWOO_BS090_runningcost;
+        cargo_capacity:                 sw_DAEWOO_BS090_capacity;
+        loading_speed:                  sw_DAEWOO_BS090_loadingspeed;
 
-        cargo_subtype_text:             sw_DAEWOO_NEW_BS090_cargo_subtype_text;
+        cargo_subtype_text:             sw_DAEWOO_BS090_cargo_subtype_text;
 
         // Company colours remapping
-        colour_mapping:                 sw_DAEWOO_NEW_BS090_recolour;
+        colour_mapping:                 sw_DAEWOO_BS090_recolour;
     }
 }
