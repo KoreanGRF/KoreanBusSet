@@ -1,5 +1,6 @@
 .nmlcache
 .ignore
+.vscode
 generated
 docs/*.txt
 *.tar
