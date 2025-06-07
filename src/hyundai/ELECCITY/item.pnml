@@ -50,7 +50,9 @@ item(FEAT_ROADVEHS, ko_bus_HYUNDAI_ELECCITY, 5016) {
 
         // Flags
         misc_flags:                     bitmask(ROADVEH_FLAG_AUTOREFIT);
-        sound_effect:                   SOUND_DEPARTURE_OLD_RV_1;
+
+        // Sound
+        sound_effect:                   SOUND_DEPARTURE_MODERN_BUS;
     }
     graphics {
         default:                        sw_HYUNDAI_ELECCITY_engine;
