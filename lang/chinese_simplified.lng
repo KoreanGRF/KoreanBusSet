@@ -1,0 +1,143 @@
+##grflangid 0x56
+##gender m f
+
+# GRF 名称与描述
+STR_GRF_NAME_WITH_VER                                     :韩国巴士包 {VERSION}
+STR_GRF_DESC                                              :{BLACK}包含首尔及京畿道巴士的韩国巴士包。{}(最近更新：{RECENT_UPDATED}){}{}{SILVER}+ 制作：TELK{}{BLACK}  - {AUTHOR_EMAIL}{}  - {AUTHOR_WEBSITE}
+STR_GRF_URL                                               :https://telk.kr/ottd/newgrf/ko_bus_set/?lang=ko
+
+# 车辆名称
+STR_HYUNDAI_AEROCITY_NAME                                 :现代 Aero City
+STR_HYUNDAI_GREENCITY_NAME                                :现代 Green City
+STR_HYUNDAI_SUPER_AEROCITY_LF_NAME                        :现代 New Super Aero City 低地板
+STR_HYUNDAI_UNIVERSE_EXPRESS_NOBLE_NAME                   :现代 New Premium Universe Express Noble
+STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_NAME                    :现代 Universe Space Luxury(前门型)
+STR_HYUNDAI_UNIVERSE_SPACE_LUXURY_WITH_MIDDLE_DOOR_NAME   :现代 Universe Space Luxury(前中门型)
+STR_HYUNDAI_UNIVERSE_2019_FACELIFT_NAME                   :现代 Universe 2019 改款(前门型)
+STR_HYUNDAI_UNIVERSE_2019_FACELIFT_WITH_MIDDLE_DOOR_NAME  :现代 Universe 2019 改款(前中门型)
+STR_HYUNDAI_ELECCITY_NAME                                 :现代 Elec City
+STR_HYUNDAI_ELECCITY_ARTICULATED_NAME                     :现代 Elec City(铰接)
+STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :现代 Elec City(双层)
+STR_DAEWOO_BS090_NAME                                     :大宇 BS090 - Royal Midi
+STR_DAEWOO_NEW_BS106_NAME                                 :大宇 NEW BS106 - Royal City
+STR_DAEWOO_NEW_BS110_LF_NAME                              :大宇 NEW BS110 低地板
+STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :旧首尔巴士(绿,低地板)
+STR_LEGACY_BUS_SEOUL_RED_NAME                             :旧首尔巴士(红,低地板)
+STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :旧首尔巴士(黄,低地板)
+STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :旧首尔巴士(蓝,低地板)
+STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :旧京畿 G-BUS(绿)
+STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :旧京畿 G-BUS(红)
+STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :旧京畿 G-BUS(黄)
+STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :旧京畿 G-BUS(蓝)
+STR_HYUNDAI_COUNTY_LONG_NAME                              :现代 County(长轴)
+STR_HYUNDAI_COUNTY_XLONG_NAME                             :现代 County(超长轴)
+
+# 换涂装(地区)
+STR_REFIT_LIVERY_SEOUL_YELLOW_SHUTTLE                     :(首尔,接驳)
+STR_REFIT_LIVERY_GYEONGGI                                 :(京畿道)
+STR_REFIT_LIVERY_CHEONAN                                  :(天安)
+STR_REFIT_LIVERY_SEJONG_BRT                               :(世宗,BRT)
+STR_REFIT_LIVERY_BUSAN                                    :(釜山)
+STR_REFIT_LIVERY_GWANGJU                                  :(光州)
+STR_REFIT_LIVERY_GWANGJU_EXPRESS                          :(光州,快速)
+STR_REFIT_LIVERY_ULSAN                                    :(蔚山)
+STR_REFIT_LIVERY_CHUNGBUK                                 :(忠清北道)
+STR_REFIT_LIVERY_BS090_SEOUL_MONDRIAAN                    :(首尔, 1994~2004年,蒙德里安版)
+
+# 换涂装(颜色)
+STR_REFIT_LIVERY_MANUFACTURE                              :(制造商默认)
+STR_REFIT_LIVERY_COMPANY_COLOUR                           :(公司配色)
+STR_REFIT_LIVERY_DARK_BLUE                                :(深蓝)
+STR_REFIT_LIVERY_PALE_GREEN                               :(浅绿)
+STR_REFIT_LIVERY_PINK                                     :(粉红)
+STR_REFIT_LIVERY_YELLOW                                   :(黄色)
+STR_REFIT_LIVERY_RED                                      :(红色)
+STR_REFIT_LIVERY_LIGHT_BLUE                               :(亮蓝)
+STR_REFIT_LIVERY_GREEN                                    :(绿色)
+STR_REFIT_LIVERY_DARK_GREEN                               :(深绿)
+STR_REFIT_LIVERY_BLUE                                     :(蓝色)
+STR_REFIT_LIVERY_CREAM                                    :(浅粉)
+STR_REFIT_LIVERY_MAUVE                                    :(浅紫)
+STR_REFIT_LIVERY_PURPLE                                   :(紫色)
+STR_REFIT_LIVERY_ORANGE                                   :(橙色)
+STR_REFIT_LIVERY_BROWN                                    :(棕色)
+STR_REFIT_LIVERY_GREY                                     :(灰色)
+STR_REFIT_LIVERY_WHITE                                    :(白色)
+STR_REFIT_LIVERY_SEOUL_COMPANY_COLOUR                     :(首尔,公司配色)
+STR_REFIT_LIVERY_SEOUL_DARK_BLUE                          :(首尔,深蓝)
+STR_REFIT_LIVERY_SEOUL_YELLOW                             :(首尔,黄)
+STR_REFIT_LIVERY_SEOUL_RED                                :(首尔,红)
+STR_REFIT_LIVERY_SEOUL_GREEN                              :(首尔,绿)
+STR_REFIT_LIVERY_SEOUL_BLUE                               :(首尔,蓝)
+STR_REFIT_LIVERY_GYEONGGI_COMPANY_COLOUR                  :(京畿,公司配色)
+STR_REFIT_LIVERY_GYEONGGI_DARK_BLUE                       :(京畿,深蓝)
+STR_REFIT_LIVERY_GYEONGGI_PALE_GREEN                      :(京畿,浅绿)
+STR_REFIT_LIVERY_GYEONGGI_PINK                            :(京畿,粉红)
+STR_REFIT_LIVERY_GYEONGGI_YELLOW                          :(京畿,黄)
+STR_REFIT_LIVERY_GYEONGGI_RED                             :(京畿,红)
+STR_REFIT_LIVERY_GYEONGGI_RED_1                           :(京畿,红1)
+STR_REFIT_LIVERY_GYEONGGI_RED_2                           :(京畿,红2)
+STR_REFIT_LIVERY_GYEONGGI_LIGHT_BLUE                      :(京畿,亮蓝)
+STR_REFIT_LIVERY_GYEONGGI_GREEN                           :(京畿,绿)
+STR_REFIT_LIVERY_GYEONGGI_BLUE                            :(京畿,蓝)
+STR_REFIT_LIVERY_GYEONGGI_BLUE_1                          :(京畿,蓝1)
+STR_REFIT_LIVERY_GYEONGGI_BLUE_2                          :(京畿,蓝2)
+
+# 换涂装(特殊类型)
+STR_REFIT_LIVERY_PREMIUM_GOLD                             :(尊享金色)
+STR_REFIT_LIVERY_PREMIUM_GOLD_1                           :(尊享金色1)
+STR_REFIT_LIVERY_PREMIUM_GOLD_2                           :(尊享金色2)
+STR_REFIT_LIVERY_GYEONGGI_RAPID                           :(京畿,快速)
+STR_REFIT_LIVERY_M_BUS                                    :(广域快线 M-Bus)
+
+# 换涂装(现实公司/机构)
+STR_REFIT_LIVERY_KD                                       :(KD 运输集团)
+STR_REFIT_LIVERY_JOONGANG                                 :(中央高速)
+STR_REFIT_LIVERY_KUMHO                                    :(金湖高速)
+STR_REFIT_LIVERY_ROKAF                                    :(空军)
+STR_REFIT_LIVERY_POLICE                                   :(警察厅)
+STR_REFIT_LIVERY_MINISTRY_OF_JUSTICE                      :(法务部)
+
+# 换涂装(现代 County)
+STR_REFIT_LIVERY_HYUNDAI_COUNTY_ECRUBEIGE                 :(Ecru 米色)
+
+# 换涂装(旧版)
+STR_REFIT_LEGACY_LOWER                                    :(普通)
+STR_REFIT_LEGACY_NORMAL                                   :(低地板)
+
+# 参数
+STR_PARAM_SPEED_NAME                                      :速度
+STR_PARAM_SPEED_DESC                                      :可调整巴士速度。数值越大,速度越快。{}若要使用真实速度,请设为 5。
+STR_PARAM_FACTOR_COST_NAME                                :价格
+STR_PARAM_FACTOR_COST_DESC                                :可调整巴士购入价格。数值越大,价格越高。
+STR_PARAM_FACTOR_RUNNING_COST_NAME                        :维护费
+STR_PARAM_FACTOR_RUNNING_COST_DESC                        :可调整巴士维护费用。数值越大,维护费越高。
+STR_PARAM_FACTOR_CARGO_CAPACITY_NAME                      :载客量
+STR_PARAM_FACTOR_CARGO_CAPACITY_DESC                      :可调整巴士的乘客或货物容量。数值越大,容量越多。{}设为 x1 时接近现实载客量。{}{RED}注意！{WHITE}此设置仅对新造车辆生效。
+STR_PARAM_FACTOR_LOADING_SPEED_NAME                       :装载速度
+STR_PARAM_FACTOR_LOADING_SPEED_DESC                       :可调整乘客或货物装载速度。数值越大,装载越快。
+STR_PARAM_USE_LEGACY_BUS_NAME                             :使用旧版巴士
+STR_PARAM_USE_LEGACY_BUS_DESC                             :启用 v0.3.6 以前存在的旧版巴士。
+
+# 参数选项值
+STR_PARAM_OPT_FACTOR_BY_0                                 :x0
+STR_PARAM_OPT_FACTOR_BY_1_32                              :x1/32
+STR_PARAM_OPT_FACTOR_BY_1_16                              :x1/16
+STR_PARAM_OPT_FACTOR_BY_1_8                               :x1/8
+STR_PARAM_OPT_FACTOR_BY_1_4                               :x1/4
+STR_PARAM_OPT_FACTOR_BY_1_2                               :x1/2
+STR_PARAM_OPT_FACTOR_BY_1_2_DEFAULT                       :x1/2(默认)
+STR_PARAM_OPT_FACTOR_BY_1_DEFAULT                         :x1(默认)
+STR_PARAM_OPT_FACTOR_BY_1                                 :x1
+STR_PARAM_OPT_FACTOR_BY_2                                 :x2
+STR_PARAM_OPT_FACTOR_BY_4                                 :x4
+STR_PARAM_OPT_FACTOR_BY_8                                 :x8
+STR_PARAM_OPT_FACTOR_BY_16                                :x16
+STR_PARAM_OPT_FACTOR_BY_32                                :x32
+STR_PARAM_OPT_FACTOR_BY_64                                :x64
+STR_PARAM_OPT_FACTOR_BY_128                               :x128
+STR_PARAM_OPT_FACTOR_BY_256                               :x256
+
+# 错误
+STR_ERROR_REQUIRES_OPENTTD                                :此 NewGRF 仅适用于 OpenTTD {STRING} 及以上版本！
+STR_ERROR_VERSION                                         :版本不兼容！
