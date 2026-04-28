@@ -21,14 +21,14 @@ STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :现代 Elec City(双�
 STR_DAEWOO_BS090_NAME                                     :大宇 BS090 - Royal Midi
 STR_DAEWOO_NEW_BS106_NAME                                 :大宇 NEW BS106 - Royal City
 STR_DAEWOO_NEW_BS110_LF_NAME                              :大宇 NEW BS110 低地板
-STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :旧首尔巴士(绿,低地板)
-STR_LEGACY_BUS_SEOUL_RED_NAME                             :旧首尔巴士(红,低地板)
-STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :旧首尔巴士(黄,低地板)
-STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :旧首尔巴士(蓝,低地板)
-STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :旧京畿 G-BUS(绿)
-STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :旧京畿 G-BUS(红)
-STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :旧京畿 G-BUS(黄)
-STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :旧京畿 G-BUS(蓝)
+STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :{RED}[即将移除] {BLACK}旧首尔巴士(绿,低地板)
+STR_LEGACY_BUS_SEOUL_RED_NAME                             :{RED}[即将移除] {BLACK}旧首尔巴士(红,低地板)
+STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :{RED}[即将移除] {BLACK}旧首尔巴士(黄,低地板)
+STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :{RED}[即将移除] {BLACK}旧首尔巴士(蓝,低地板)
+STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :{RED}[即将移除] {BLACK}旧京畿 G-BUS(绿)
+STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :{RED}[即将移除] {BLACK}旧京畿 G-BUS(红)
+STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :{RED}[即将移除] {BLACK}旧京畿 G-BUS(黄)
+STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :{RED}[即将移除] {BLACK}旧京畿 G-BUS(蓝)
 STR_HYUNDAI_COUNTY_LONG_NAME                              :现代 County(长轴)
 STR_HYUNDAI_COUNTY_XLONG_NAME                             :现代 County(超长轴)
 

@@ -21,14 +21,14 @@ STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :Hyundai ELEC CITY (Do
 STR_DAEWOO_BS090_NAME                                     :Daewoo BS090 - Royalmidi
 STR_DAEWOO_NEW_BS106_NAME                                 :Daewoo NEW BS106 - Royalcity
 STR_DAEWOO_NEW_BS110_LF_NAME                              :Daewoo NEW BS110 Low-floor Bus
-STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :Legacy Seoul Bus (Green)
-STR_LEGACY_BUS_SEOUL_RED_NAME                             :Legacy Seoul Bus (Red)
-STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :Legacy Seoul Bus (Yellow)
-STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :Legacy Seoul Bus (Blue)
-STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :Legacy Gyeonggi Bus (Green)
-STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :Legacy Gyeonggi Bus (Red)
-STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :Legacy Gyeonggi Bus (Yellow)
-STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :Legacy Gyeonggi Bus (Blue)
+STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :{RED}[Deprecated] {BLACK}Legacy Seoul Bus (Green)
+STR_LEGACY_BUS_SEOUL_RED_NAME                             :{RED}[Deprecated] {BLACK}Legacy Seoul Bus (Red)
+STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :{RED}[Deprecated] {BLACK}Legacy Seoul Bus (Yellow)
+STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :{RED}[Deprecated] {BLACK}Legacy Seoul Bus (Blue)
+STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :{RED}[Deprecated] {BLACK}Legacy Gyeonggi Bus (Green)
+STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :{RED}[Deprecated] {BLACK}Legacy Gyeonggi Bus (Red)
+STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :{RED}[Deprecated] {BLACK}Legacy Gyeonggi Bus (Yellow)
+STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :{RED}[Deprecated] {BLACK}Legacy Gyeonggi Bus (Blue)
 STR_HYUNDAI_COUNTY_LONG_NAME                              :Hyundai County (Long axis)
 STR_HYUNDAI_COUNTY_XLONG_NAME                             :Hyundai County (Super-long axis)
 

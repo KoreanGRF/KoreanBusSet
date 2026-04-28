@@ -21,14 +21,14 @@ STR_HYUNDAI_ELECCITY_DOUBLE_DECKER_NAME                   :현대 일렉시티 (
 STR_DAEWOO_BS090_NAME                                     :대우 BS090 - 로열미디
 STR_DAEWOO_NEW_BS106_NAME                                 :대우 NEW BS106 - 로열시티
 STR_DAEWOO_NEW_BS110_LF_NAME                              :대우 NEW BS110 저상
-STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :구 서울 버스 (G, 저상)
-STR_LEGACY_BUS_SEOUL_RED_NAME                             :구 서울 버스 (R, 저상)
-STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :구 서울 버스 (Y, 저상)
-STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :구 서울 버스 (B, 저상)
-STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :구 경기도 G-BUS (녹)
-STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :구 경기도 G-BUS (적)
-STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :구 경기도 G-BUS (황)
-STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :구 경기도 G-BUS (청)
+STR_LEGACY_BUS_SEOUL_GREEN_NAME                           :{RED}[제거예정] {BLACK}구 서울 버스 (G, 저상)
+STR_LEGACY_BUS_SEOUL_RED_NAME                             :{RED}[제거예정] {BLACK}구 서울 버스 (R, 저상)
+STR_LEGACY_BUS_SEOUL_YELLOW_NAME                          :{RED}[제거예정] {BLACK}구 서울 버스 (Y, 저상)
+STR_LEGACY_BUS_SEOUL_BLUE_NAME                            :{RED}[제거예정] {BLACK}구 서울 버스 (B, 저상)
+STR_LEGACY_BUS_GYEONGGI_GREEN_NAME                        :{RED}[제거예정] {BLACK}구 경기도 G-BUS (녹)
+STR_LEGACY_BUS_GYEONGGI_RED_NAME                          :{RED}[제거예정] {BLACK}구 경기도 G-BUS (적)
+STR_LEGACY_BUS_GYEONGGI_YELLOW_NAME                       :{RED}[제거예정] {BLACK}구 경기도 G-BUS (황)
+STR_LEGACY_BUS_GYEONGGI_BLUE_NAME                         :{RED}[제거예정] {BLACK}구 경기도 G-BUS (청)
 STR_HYUNDAI_COUNTY_LONG_NAME                              :현대 카운티 (장축)
 STR_HYUNDAI_COUNTY_XLONG_NAME                             :현대 카운티 (초장축)
 
